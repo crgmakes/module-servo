@@ -477,7 +477,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "relay-module.kicad_pro",
+    "filename": "servo-module.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -683,6 +683,24 @@
           "group_by": false,
           "label": "MN",
           "name": "MN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": false
         }
       ],
