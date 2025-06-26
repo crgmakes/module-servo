@@ -6,10 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "Relay Module")
-		(date "2025-03-22")
-		(rev "1.0")
-		(company "CRG Makes")
-		(comment 1 "Aquarius")
 	)
 	(lib_symbols
 		(symbol "Device:LED_Small"
