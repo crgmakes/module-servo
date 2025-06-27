@@ -559,7 +559,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://aquarius-drawing-sheet-v1.0.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://aquarius-drawing-sheet-v1.1.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -740,7 +740,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "kicad-embed://aquarius-drawing-sheet-v1.0.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://aquarius-drawing-sheet-v1.1.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
