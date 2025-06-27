@@ -6,6 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Relay Module")
+		(date "<<release-date>>")
+		(rev "<<tag>>")
+		(comment 1 "<<hash>>")
 	)
 	(lib_symbols
 		(symbol "CRGM Logos:Aquarius Logo"

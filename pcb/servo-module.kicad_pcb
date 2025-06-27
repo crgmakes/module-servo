@@ -9,6 +9,9 @@
 	(paper "A4")
 	(title_block
 		(title "Servo Module")
+		(date "<<release-date>>")
+		(rev "<<tag>>")
+		(comment 1 "<<hash>>")
 	)
 	(layers
 		(0 "F.Cu" signal)
