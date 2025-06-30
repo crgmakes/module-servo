@@ -1,0 +1,56 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "8mm",
+        "rows": "2",
+        "cols": "2"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vcount": "2",
+        "hcount": "2"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "offset": "0mm",
+        "linewidth": "0mm",
+        "layer": "Edge.Cuts"
+    },
+    "framing": {
+        "type": "frame",
+        "width": "5mm",
+        "space": "2mm",
+        "fillet": "1mm",
+        "mintotalwidth": "70mm",
+        "mintotalheight": "70mm",
+        "cuts": "both"
+    },
+    "tooling": {
+        "type": "3hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "2.5mm",
+        "voffset": "5mm",
+        "coppersize": "2mm"
+    },
+    "text": {
+        "type": "simple",
+        "hoffset": "2.5mm",
+        "orientation": "90deg",
+        "text": "Aquarius Servo Module",
+        "anchor": "ml"
+    },
+    "text2": {
+        "type": "simple",
+        "hoffset": "-2.5mm",
+        "orientation": "90deg",
+        "text": "CRG Makes {date}",
+        "anchor": "mr"
+    },
+    "post": {
+        "millradius": "1mm"
+    }
+}
