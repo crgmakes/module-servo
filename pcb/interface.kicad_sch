@@ -5,7 +5,7 @@
 	(uuid "41e2109f-2ecd-4cae-ba6c-26cfcb8af5f2")
 	(paper "A4")
 	(title_block
-		(title "Relay Module")
+		(title "Servo Module")
 		(date "<<release-date>>")
 		(rev "<<tag>>")
 		(comment 1 "<<hash>>")
@@ -2442,7 +2442,7 @@
 		(at 44.45 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00ac5bf2-8d1c-4243-925a-149f710f807e")
@@ -2536,7 +2536,7 @@
 		(at 44.45 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "02fb30c6-af4e-4107-a3e9-aec79f6eb5b9")
@@ -2829,7 +2829,7 @@
 		(at 115.57 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1123485a-4377-453e-a270-4ab97dee6773")
@@ -3290,7 +3290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 59.69 90.17 0)
 			(effects
 				(font
@@ -3542,7 +3542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 59.69 69.85 0)
 			(effects
 				(font
@@ -3628,7 +3628,7 @@
 		(at 275.59 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "365561f2-ba3f-4fa3-bc60-3013a64ca09a")
@@ -3994,7 +3994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 59.69 25.4 0)
 			(effects
 				(font
@@ -4181,7 +4181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 59.69 46.99 0)
 			(effects
 				(font
@@ -4364,7 +4364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 91.44 83.82 0)
 			(effects
 				(font
@@ -4453,7 +4453,7 @@
 		(at 242.57 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5aeb415b-b223-4f28-9560-58192eb448df")
@@ -4577,7 +4577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 91.44 33.02 0)
 			(effects
 				(font
@@ -4850,7 +4850,7 @@
 		(at 44.45 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7318a0c2-8269-4850-9b2e-0b18c3a28bbe")
@@ -5075,7 +5075,7 @@
 		(at 44.45 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8fae4530-7724-4f76-801f-4c284fdde0a0")
@@ -5338,7 +5338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 203.2 35.56 0)
 			(effects
 				(font
@@ -5383,7 +5383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "306-BM03BSRSSTBLFSNP"
 			(at 203.2 35.56 0)
 			(effects
 				(font
@@ -6104,7 +6104,7 @@
 		(at 273.05 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b75051c0-8c3f-4d5d-a351-19dcf84a7515")
@@ -6197,7 +6197,7 @@
 		(at 113.03 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bd6e0fa2-3abb-42b6-a3c5-5e7299532058")

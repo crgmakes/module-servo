@@ -5,7 +5,7 @@
 	(uuid "5fd6312f-5512-4410-83fb-0f6c2113348e")
 	(paper "A4")
 	(title_block
-		(title "Relay Module")
+		(title "Servo Module")
 		(date "<<release-date>>")
 		(rev "<<tag>>")
 		(comment 1 "<<hash>>")
@@ -980,6 +980,10 @@
 		)
 		(uuid "6faa99df-82b0-4b02-9fc1-51a05e09d01f")
 	)
+	(no_connect
+		(at 113.03 40.64)
+		(uuid "0f3666d7-fc69-46a4-b8ac-aff1e574c2ed")
+	)
 	(wire
 		(pts
 			(xy 45.72 40.64) (xy 52.07 40.64)
@@ -1136,7 +1140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1K"
 			(at 174.2186 31.623 0)
 			(effects
 				(font
@@ -1155,7 +1159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
 			(at 172.72 30.48 0)
 			(effects
 				(font
@@ -1192,7 +1196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW0603-1.0K-E3"
+		(property "Mouser" "71-CRCW06031K00JNEAC"
 			(at 172.72 30.48 0)
 			(effects
 				(font
@@ -1202,7 +1206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "541-1.00KHTR-ND"
+		(property "Digikey" "541-3991-2-ND"
 			(at 172.72 30.48 0)
 			(effects
 				(font
@@ -1750,7 +1754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7K"
 			(at 162.7886 31.623 0)
 			(effects
 				(font

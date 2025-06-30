@@ -646,42 +646,6 @@
         },
         {
           "group_by": false,
-          "label": "MN_PN",
-          "name": "MN_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC_MF_PN",
-          "name": "LCSC_MF_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC_PN",
-          "name": "LCSC_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MN",
           "name": "MN",
           "show": false
@@ -707,7 +671,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

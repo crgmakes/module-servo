@@ -5,7 +5,7 @@
 	(uuid "6f876faf-a2fb-4b55-acaf-9b0ee9368edb")
 	(paper "A4")
 	(title_block
-		(title "Relay Module")
+		(title "Servo Module")
 		(date "<<release-date>>")
 		(rev "<<tag>>")
 		(comment 1 "<<hash>>")
