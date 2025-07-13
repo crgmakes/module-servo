@@ -25,9 +25,17 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+*.rules
 
 # Exported BOM files
-#*.xml
-#*.csv
-
+*.xml
+*.csv
+export-*
 **/.DS_Store
+.DS_Store
+
+#rendered output
+3d/Render/*
+
+#FreeCAD
+*.FCBak

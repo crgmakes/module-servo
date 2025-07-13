@@ -11574,7 +11574,7 @@
 			(uuid "25f95375-c004-435f-b836-5036fc74b2b6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_USER_LIBRARY}/models/ATTINY1616-MFR.stp"
+		(model "${KICAD_USER_MODEL_DIR}/ATTINY1616-MFR.step"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -25,6 +25,31 @@
 		)
 		(uuid "8f4a163b-d860-4d22-9f0d-fa7e3881edd2")
 	)
+	(text_box "PCB:\n4 Layers\nThickness: 1.6mm\nCopper: 1oz\nFinish: HASL\nSoldermask: Purple\nSilkscreen: White\nMin Trace: 6mil\nMin Spacing: 5mil\nMin Drill: 0.25mm\nMin Via: 0.3mm\nMin Via Annular Ring: 0.6mm\n\n"
+		(exclude_from_sim yes)
+		(at 106.426 93.472 0)
+		(size 78.74 54.356)
+		(margins 2.032 2.032 2.032 2.032)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 194 1)
+			)
+			(justify left top)
+		)
+		(uuid "010327bd-46ff-49c5-8499-ce7e6d092554")
+	)
 	(text_box "BASIC\n\n* ATTiny1616 Processor\n* Adafruit Seesaw Protocol\n* Four Servo Ports\n* Power In/Out Ports\n* Optional Pull Ups for I2C\n* I2C Address Selection (2-bits)"
 		(exclude_from_sim yes)
 		(at 19.05 32.385 0)
