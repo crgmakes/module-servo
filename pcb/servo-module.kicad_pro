@@ -668,6 +668,36 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT_MPN",
+          "name": "ALT_MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT_LCSC",
+          "name": "ALT_LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT_LCSC_2",
+          "name": "ALT_LCSC_2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT_MN",
+          "name": "ALT_MN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -731,12 +761,16 @@
       "MCU"
     ],
     [
+      "296dc314-3d17-488c-9fb5-773b46333515",
+      "Indicators"
+    ],
+    [
       "79999e2d-f9ce-43cc-89fd-ab3014c490c1",
       "Interfaces"
     ],
     [
-      "296dc314-3d17-488c-9fb5-773b46333515",
-      "Indicators"
+      "eeaa896c-88e5-4042-8d3a-e7c6f02bca2a",
+      "Power"
     ]
   ],
   "text_variables": {}
