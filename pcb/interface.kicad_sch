@@ -2398,6 +2398,127 @@
 		)
 	)
 	(symbol
+		(lib_id "CRGM Connector:JST-SH-3")
+		(at 66.04 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "176de6f8-5258-4648-8e67-85bd3c6b755b")
+		(property "Reference" "J4"
+			(at 66.04 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 86.614 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+					(thickness 0.3556)
+					(bold yes)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Connector:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 66.04 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST SH 1.0mm 3 Position"
+			(at 68.072 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "JST"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM03B-SRSS-TB"
+			(at 66.04 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "455-SM03B-SRSS-TBTR-ND"
+			(at 66.04 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "306-SM03BSRSSTBTLFSN"
+			(at 66.04 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2763613"
+			(at 66.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4d15ecd-e0b5-413f-bda6-381fc4923a1f")
+		)
+		(pin "2"
+			(uuid "0e57e66a-393c-4d0b-84bb-89b696154815")
+		)
+		(pin "3"
+			(uuid "d8778ae0-024c-4570-b7d0-dd9d77c09978")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 43.18 0)
 		(unit 1)
@@ -2457,163 +2578,6 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CRGM Connector:JST-SH-3")
-		(at 66.04 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21329db2-f465-40c7-a12d-23fa93269c96")
-		(property "Reference" "J4"
-			(at 66.04 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 66.04 86.614 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-					(thickness 0.3556)
-					(bold yes)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 67.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 66.04 100.076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "JST SH 1.0mm 3 Position"
-			(at 68.072 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" "JST"
-			(at 66.04 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BM04B-SRSS-TB"
-			(at 66.04 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
-			(at 66.04 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "306-BM04BSRSSTBTLFSN"
-			(at 66.04 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2919601"
-			(at 66.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC" ""
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e029445f-51e3-40a1-82fe-b8a29f660991")
-		)
-		(pin "2"
-			(uuid "a95ce1f5-19f2-4087-804f-1f675253577b")
-		)
-		(pin "3"
-			(uuid "5060787e-e483-4a6f-9f9e-14636c8a6077")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2838,6 +2802,127 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRGM Connector:JST-SH-3")
+		(at 66.04 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32807c9e-ac54-449b-b0ac-1bb0c748390d")
+		(property "Reference" "J3"
+			(at 66.04 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 63.754 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+					(thickness 0.3556)
+					(bold yes)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Connector:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 66.04 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST SH 1.0mm 3 Position"
+			(at 68.072 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "JST"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM03B-SRSS-TB"
+			(at 66.04 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "455-SM03B-SRSS-TBTR-ND"
+			(at 66.04 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "306-SM03BSRSSTBTLFSN"
+			(at 66.04 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2763613"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a23f611e-3f09-4cc7-b10b-2ddfa2c2a5bb")
+		)
+		(pin "2"
+			(uuid "0a091bcb-cd0e-480f-8b04-2f7edeacec4b")
+		)
+		(pin "3"
+			(uuid "aef5e13f-b08e-49a2-b7ad-581f3e97adf8")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3802,9 +3887,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9703844a-c078-4497-807b-99b6c90d25cc")
 		(property "Reference" "J7"
 			(at 187.96 39.116 0)
@@ -4239,163 +4324,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CRGM Connector:JST-SH-3")
-		(at 66.04 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c90bb79c-f973-43df-8f7d-1ea09e44d561")
-		(property "Reference" "J3"
-			(at 66.04 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 66.04 63.754 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-					(thickness 0.3556)
-					(bold yes)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 67.31 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 66.04 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "JST SH 1.0mm 3 Position"
-			(at 68.072 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" "JST"
-			(at 66.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BM04B-SRSS-TB"
-			(at 66.04 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
-			(at 66.04 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "306-BM04BSRSSTBTLFSN"
-			(at 66.04 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2919601"
-			(at 66.04 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC" ""
-			(at 66.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 66.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 66.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 66.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8d77971-11c8-42ec-9894-fb6f280f3c66")
-		)
-		(pin "2"
-			(uuid "5b2c9c44-d149-400b-87f0-e220ba7d622b")
-		)
-		(pin "3"
-			(uuid "8c49c674-44f0-45c0-8d39-dbd1da2b89e7")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CRGM Passive:PESD5V5C1BLYL")
 		(at 50.8 62.23 90)
 		(unit 1)
@@ -4646,7 +4574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+		(property "Footprint" "CRGM Connector:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 67.31 22.86 0)
 			(effects
 				(font
@@ -4682,7 +4610,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BM04B-SRSS-TB"
+		(property "MPN" "SM03B-SRSS-TB"
 			(at 66.04 46.228 0)
 			(effects
 				(font
@@ -4691,7 +4619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+		(property "Digikey" "455-SM03B-SRSS-TBTR-ND"
 			(at 66.04 50.546 0)
 			(effects
 				(font
@@ -4700,7 +4628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "306-BM04BSRSSTBTLFSN"
+		(property "Mouser" "306-SM03BSRSSTBTLFSN"
 			(at 66.04 53.086 0)
 			(effects
 				(font
@@ -4709,44 +4637,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2919601"
+		(property "LCSC" "C2763613"
 			(at 66.04 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC" ""
-			(at 66.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 66.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 66.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 66.04 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
