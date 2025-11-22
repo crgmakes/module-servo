@@ -643,13 +643,13 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MN",
           "name": "MN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -679,7 +679,7 @@
           "group_by": false,
           "label": "Tolerance",
           "name": "Tolerance",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
