@@ -20241,7 +20241,7 @@
 		)
 		(uuid "520c8b49-dad7-48c2-8b36-5125baaea506")
 	)
-	(text_box "Interfaces:\n* 2 - Power\n* 2 - QWICC\n* 1 - Serial\n* 4 - Servo Out\n\nOUTPUT:\n* 4 Servo Status LEDs\n* 1 5V Power\n* 1 3.3V Power"
+	(text_box "Interfaces:\n* 2 - Power\n* 2 - QWICC\n* 1 - Serial\n* 3 - Servo Out\n\nOUTPUT:\n* 1 5V Power\n* 1 3.3V Power"
 		(exclude_from_sim yes)
 		(at 161.29 32.385 0)
 		(size 69.215 55.88)
@@ -20555,7 +20555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Aquarius Logo 8mm"
+		(property "Footprint" "CRGM Logos:Aquarius Logo 5mm"
 			(at 38.354 189.738 0)
 			(effects
 				(font
@@ -20948,7 +20948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Roxy 8mm"
+		(property "Footprint" "CRGM Logos:Roxy 6.5mm"
 			(at 85.09 194.818 0)
 			(effects
 				(font
@@ -21177,7 +21177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Aquarius Logo 8mm"
+		(property "Footprint" "CRGM Logos:Aquarius Logo 5mm"
 			(at 26.924 189.738 0)
 			(effects
 				(font
@@ -21275,7 +21275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Roxy 8mm"
+		(property "Footprint" "CRGM Logos:Roxy 6.5mm"
 			(at 73.66 194.818 0)
 			(effects
 				(font

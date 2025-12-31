@@ -2462,7 +2462,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Orange"
+		(property "Value" "Blue"
 			(at 115.57 46.99 90)
 			(effects
 				(font
@@ -2481,7 +2481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -2491,7 +2491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20mA 315mcd Colorless Orange 120° 50mW 2.3V 0603"
+		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -2509,7 +2509,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "XL-1608UOC-06"
+		(property "MPN" "XL-1608UBC-04"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -2518,17 +2518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "859-LTST-C190KFKT"
-			(at 114.3 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "5962-XL-1608UOC-06TR-ND"
+		(property "Mouser" "859-LTST-C190TBKT"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -2538,7 +2528,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965800"
+		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -2548,38 +2538,12 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 114.3 45.72 90)
+		(property "LCSC" "C965807"
+			(at 114.3 45.72 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 114.3 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 114.3 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 114.3 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(color 223 129 255 1)
 				)
 				(hide yes)
 			)
@@ -3017,161 +2981,6 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 125.73 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ee2f0bf-2f26-46fe-8163-f2d022912c8a")
-		(property "Reference" "D10"
-			(at 127 44.45 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Orange"
-			(at 127 46.99 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20mA 315mcd Colorless Orange 120° 50mW 2.3V 0603"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" "XINGLIGHT"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XL-1608UOC-06"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "859-LTST-C190KFKT"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "5962-XL-1608UOC-06TR-ND"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C965800"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC" ""
-			(at 125.73 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 125.73 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 125.73 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 125.73 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34bef7da-6376-443a-8b94-998f28a8beda")
-		)
-		(pin "2"
-			(uuid "8f51ccf3-c1b7-47cd-a5e8-109b6d729417")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4371,6 +4180,125 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 125.73 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce8d14dc-f1a8-4111-900e-c0fdeea2f155")
+		(property "Reference" "D10"
+			(at 127 44.45 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 127 46.99 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "XINGLIGHT"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "859-LTST-C190TBKT"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965807"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7deef848-a17c-4bc1-bb85-5942fd0e9021")
+		)
+		(pin "2"
+			(uuid "c8fe0d00-3c59-4585-9a3f-60546d927f3e")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "D10")
 					(unit 1)
 				)
 			)
