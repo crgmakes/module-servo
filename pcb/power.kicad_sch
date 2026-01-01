@@ -943,6 +943,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -1804,7 +1944,7 @@
 	)
 	(rectangle
 		(start 101.6 25.4)
-		(end 142.875 76.2)
+		(end 152.4 76.2)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -1989,6 +2129,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 49.53) (xy 135.89 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e16f0bf-bf9d-4c92-86c8-b7700b139617")
+	)
+	(wire
+		(pts
 			(xy 35.56 54.61) (xy 35.56 55.88)
 		)
 		(stroke
@@ -2046,6 +2196,16 @@
 			(type default)
 		)
 		(uuid "ad426912-ce97-47a9-9017-d50289347ab0")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4eab85-f96b-4ad1-83d0-6947053f4b6c")
 	)
 	(wire
 		(pts
@@ -2107,6 +2267,26 @@
 		)
 		(uuid "f02071f2-e6ee-4f34-bdf6-375424d8ffe5")
 	)
+	(wire
+		(pts
+			(xy 135.89 59.69) (xy 135.89 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c5334f-da57-43e6-bcf3-a14ff54b371d")
+	)
+	(wire
+		(pts
+			(xy 135.89 43.18) (xy 135.89 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff25b5b-39fe-474b-bd91-a22a316098bc")
+	)
 	(label "V3.3LED"
 		(at 125.73 41.91 0)
 		(effects
@@ -2116,6 +2296,16 @@
 			(justify left bottom)
 		)
 		(uuid "7c414b27-0ddf-424b-b444-940964fff764")
+	)
+	(label "VSERVOLED"
+		(at 135.89 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e688b74-397b-4910-bb1b-f9808b0a94e1")
 	)
 	(label "V5LED"
 		(at 114.3 41.91 0)
@@ -2136,7 +2326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01e2767a-8b88-4285-8b2b-554723f77b2e")
-		(property "Reference" "JP6"
+		(property "Reference" "JP7"
 			(at 123.698 53.34 0)
 			(effects
 				(font
@@ -2207,42 +2397,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 125.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 125.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 125.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 125.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "74b30f9d-f038-4c79-b479-283385abf598")
 		)
@@ -2252,7 +2406,297 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "JP6")
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 135.89 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "01edf82a-1083-44ee-a4e6-ea4330ce8b03")
+		(property "Reference" "JP8"
+			(at 133.858 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 138.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53ce513f-cf5b-498d-a5de-46c05f628a94")
+		)
+		(pin "1"
+			(uuid "57536d06-abeb-4fd9-982a-2536651501e5")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02c24ab5-7d29-44bc-b39e-b0f3c8dd4a5a")
+		(property "Reference" "R8"
+			(at 137.3886 35.6616 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 137.3886 37.973 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/10Watt 4.7Kohms 5% Commercial Use"
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "FOJAN "
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J472 TS"
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW06034K70JNEAC"
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "541-3993-2-ND"
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907166"
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feded5e2-79d6-4300-af6c-8386ba2abe3b")
+		)
+		(pin "2"
+			(uuid "2db2b15c-27e4-4dd7-9280-6457fea84e98")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a6e138f-251e-477e-9d4a-f1b0d45d75ad")
+		(property "Reference" "#PWR056"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0dc2a7f-2ac6-4e6f-885a-62685ffe926a")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "233bd638-b033-4185-a502-7670aef35a09")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 115.57 44.45 90)
 			(effects
 				(font
@@ -2557,7 +3001,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2639,7 +3083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c7edc1d-cda8-4959-944f-71c52b33fbeb")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 78.486 35.306 0)
 			(effects
 				(font
@@ -2733,42 +3177,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 78.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 78.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 78.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 78.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "77cbeee2-0148-4437-8081-8c2594b1f1c8")
 		)
@@ -2784,7 +3192,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -2799,7 +3207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f64dbd0-70c0-46df-9859-295bcb6a7772")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 35.56 62.23 0)
 			(effects
 				(font
@@ -2849,7 +3257,73 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "#PWR039")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 62.23 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4080ff15-5465-4a0a-ac7e-b7486b81f7f5")
+		(property "Reference" "#PWR042"
+			(at 62.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 62.23 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88d996a2-f048-40ac-ad6b-70fdd6cf4267")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2930,7 +3404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "550fb8df-2d6c-45f8-93bb-33b67abbbd03")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR039"
 			(at 41.91 62.23 0)
 			(effects
 				(font
@@ -2980,7 +3454,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "#PWR041")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3089,7 +3563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d5a7568-1f32-4ef2-bba3-ca55196a4eb5")
-		(property "Reference" "JP5"
+		(property "Reference" "JP6"
 			(at 112.268 53.34 0)
 			(effects
 				(font
@@ -3160,42 +3634,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "70682361-2e78-4084-b49f-f8db628cd66b")
 		)
@@ -3205,7 +3643,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "JP5")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -3220,7 +3658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7feef0de-e83a-481d-a779-ab5068f67bc7")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 115.7986 35.6616 0)
 			(effects
 				(font
@@ -3324,42 +3762,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 114.3 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 114.3 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 114.3 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 114.3 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c0addb23-fc71-4c48-aac9-92dda2b49086")
 		)
@@ -3369,7 +3771,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3508,6 +3910,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 62.23 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93d032aa-2804-45dc-862d-a1258bd18fb0")
+		(property "Reference" "#PWR043"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 70.866 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3a69aa-a10b-463c-babf-e9218f4dd9ae")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CRGM Connector:TestPoint")
 		(at 82.55 66.04 0)
 		(unit 1)
@@ -3516,7 +3983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9911d81b-a88c-4ece-a159-e18b1037488c")
-		(property "Reference" "TP12"
+		(property "Reference" "TP15"
 			(at 82.55 61.722 90)
 			(effects
 				(font
@@ -3589,49 +4056,13 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 82.55 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 82.55 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 82.55 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 82.55 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ba3f3fff-3e99-4e10-bab7-30db32927db6")
 		)
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "TP12")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -3698,6 +4129,125 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 135.89 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0384a44-bd57-4e7f-a157-e41d90cd2c8f")
+		(property "Reference" "D12"
+			(at 137.16 44.45 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 137.16 46.99 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "XINGLIGHT"
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "859-LTST-C190TBKT"
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965807"
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9224c26-9da1-4bd8-b15c-edda0586554a")
+		)
+		(pin "2"
+			(uuid "065bed21-2b07-4d52-b1be-eea624cbe650")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3778,7 +4328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5512ab2-c914-4266-8508-4e35ccd6e318")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 35.56 49.53 0)
 			(effects
 				(font
@@ -3829,7 +4379,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3844,7 +4394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc0739ca-78c6-491a-9b3b-ddda54335202")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 44.45 44.45 0)
 			(effects
 				(font
@@ -3895,7 +4445,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3910,7 +4460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be02294e-a79d-4b57-b7c5-377dc8e4a990")
-		(property "Reference" "TP11"
+		(property "Reference" "TP14"
 			(at 74.93 61.722 90)
 			(effects
 				(font
@@ -3983,49 +4533,13 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 74.93 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 74.93 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 74.93 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 74.93 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8a4f2679-c974-44a8-b62a-83d7bb657f1b")
 		)
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "TP11")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -4040,7 +4554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5bcaeb9-b653-47dd-8f9c-b603915b3aa6")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 38.608 53.34 0)
 			(effects
 				(font
@@ -4134,42 +4648,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 35.56 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 35.56 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 35.56 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 35.56 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "62004cae-9767-459f-96f7-e504bbfcecb4")
 		)
@@ -4179,7 +4657,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4194,7 +4672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce8d14dc-f1a8-4111-900e-c0fdeea2f155")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 127 44.45 90)
 			(effects
 				(font
@@ -4298,7 +4776,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4313,7 +4791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0e1fa60-2058-4976-a517-45f9cdfd89ca")
-		(property "Reference" "TP13"
+		(property "Reference" "TP16"
 			(at 86.36 61.722 90)
 			(effects
 				(font
@@ -4386,49 +4864,13 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 86.36 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 86.36 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 86.36 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 86.36 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "666ab19c-1a8b-4c18-a5e8-2b7981d17bcf")
 		)
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "TP13")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -4443,7 +4885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6f00e45-1dcb-4cac-84fd-0bae8bcbb07e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 41.91 40.64 0)
 			(effects
 				(font
@@ -4494,7 +4936,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4509,7 +4951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2ec223b-837e-4551-a6d9-474035b2058c")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 44.958 53.086 0)
 			(effects
 				(font
@@ -4602,42 +5044,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f21cf7e4-78e9-43db-ad8e-7b7f0c907d0f")
 		)
@@ -4647,7 +5053,241 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "D8")
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e334d661-90a1-4891-80e6-5006daf067c6")
+		(property "Reference" "#PWR055"
+			(at 135.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSERVO"
+			(at 132.588 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4023a197-9d46-47cb-9ce7-0aa140e59691")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 62.23 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebb95bbb-6560-429e-9a68-fbf6ce72c1fa")
+		(property "Reference" "C4"
+			(at 63.754 62.23 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 63.754 64.77 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRGM Passive:C_0603_1608Metric"
+			(at 63.1952 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL10A106MO8NQNC_Spec.pdf"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10uF 16V X5R 0603"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Samsung"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MO8NQNC"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "187-CL10A106MO8NQNC"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1870-2-ND"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C92487"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ef2f817-ae80-4914-bf24-c04c50d92308")
+		)
+		(pin "1"
+			(uuid "08afa899-1c83-4708-819b-d7c6980c0aa4")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4662,7 +5302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebd815a2-7169-471c-a108-1ed8c4586eeb")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 127.2286 35.6616 0)
 			(effects
 				(font
@@ -4766,42 +5406,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2e18b235-d763-440e-abc8-8a1b0fd45a54")
 		)
@@ -4811,7 +5415,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4826,7 +5430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4547521-0f83-4e83-994f-d75a7f20c6d0")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 53.086 35.306 0)
 			(effects
 				(font
@@ -4920,42 +5524,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_LCSC" ""
-			(at 53.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_LCSC_2" ""
-			(at 53.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MN" ""
-			(at 53.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MPN" ""
-			(at 53.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d30e07c1-b955-4bb1-a3b1-05ed314f46ed")
 		)
@@ -4971,7 +5539,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4986,7 +5554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f60f90cf-dbae-4761-80c4-90de1c3463db")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR040"
 			(at 44.45 41.91 0)
 			(effects
 				(font
@@ -5037,7 +5605,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "#PWR042")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

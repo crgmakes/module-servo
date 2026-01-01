@@ -532,10 +532,6 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/Power/V5_IN"
-      },
-      {
-        "netclass": "Power",
         "pattern": "+5V"
       },
       {
@@ -544,7 +540,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "V5_RAW"
+        "pattern": "VSERVO"
       }
     ]
   },
@@ -601,19 +597,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -667,13 +663,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "ALT_MPN",
-          "name": "ALT_MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -683,20 +673,20 @@
         },
         {
           "group_by": false,
-          "label": "ALT_LCSC",
-          "name": "ALT_LCSC",
+          "label": "Height",
+          "name": "Height",
           "show": false
         },
         {
           "group_by": false,
-          "label": "ALT_LCSC_2",
-          "name": "ALT_LCSC_2",
+          "label": "Package",
+          "name": "Package",
           "show": false
         },
         {
           "group_by": false,
-          "label": "ALT_MN",
-          "name": "ALT_MN",
+          "label": "WVDC",
+          "name": "WVDC",
           "show": false
         }
       ],
