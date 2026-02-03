@@ -2216,31 +2216,6 @@
 		)
 		(uuid cdbc9cb8-73d1-42cc-be81-d34a10d8af6a)
 	)
-	(rectangle
-		(start 167.64 25.4)
-		(end 212.09 73.66)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 255 153 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e4b9e1a1-e53e-4b65-8c90-d69d11dfc4f3)
-	)
-	(text "Serial Connector"
-		(exclude_from_sim no)
-		(at 187.96 70.358 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-			)
-		)
-		(uuid "165db04c-3074-40f7-a104-942792a37251")
-	)
 	(text "I2C\n"
 		(exclude_from_sim no)
 		(at 91.44 75.692 0)
@@ -2310,18 +2285,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53c31060-319c-45b2-8881-79c4d6e63f42")
-	)
-	(junction
-		(at 193.04 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56e25cc5-d058-4e7c-a407-321d21caeb93")
-	)
-	(junction
-		(at 195.58 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c638fc0-f008-40f9-a10c-0e2ee2729ca3")
 	)
 	(junction
 		(at 50.8 36.83)
@@ -2405,26 +2368,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 48.26) (xy 200.66 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1955bd53-d6ab-463e-9950-0863937c6c7b")
-	)
-	(wire
-		(pts
-			(xy 190.5 41.91) (xy 193.04 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22984af1-54c3-4e3b-ae21-895a81ddfb02")
-	)
-	(wire
-		(pts
 			(xy 59.69 100.33) (xy 59.69 102.87)
 		)
 		(stroke
@@ -2462,16 +2405,6 @@
 			(type default)
 		)
 		(uuid "6505fb1b-1d65-4c5d-8e12-edf5c302f5e6")
-	)
-	(wire
-		(pts
-			(xy 195.58 40.64) (xy 195.58 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ed37523-a0d2-4fd5-846b-a37ab4917e3f")
 	)
 	(wire
 		(pts
@@ -2535,26 +2468,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 46.99) (xy 190.5 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "907b16bd-76d4-4894-b7f2-efec0b3314cf")
-	)
-	(wire
-		(pts
-			(xy 193.04 41.91) (xy 200.66 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b1d59f-0a0b-42e8-9b1b-ae8ac7be5e08")
-	)
-	(wire
-		(pts
 			(xy 49.53 127) (xy 52.07 127)
 		)
 		(stroke
@@ -2615,16 +2528,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 40.64) (xy 193.04 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a106ba1c-60d7-49b0-b8af-67ec418f30d9")
-	)
-	(wire
-		(pts
 			(xy 52.07 100.33) (xy 59.69 100.33)
 		)
 		(stroke
@@ -2652,16 +2555,6 @@
 			(type default)
 		)
 		(uuid "a8f4df72-a8d8-4c7a-b0f4-bf3cb60c35b4")
-	)
-	(wire
-		(pts
-			(xy 190.5 44.45) (xy 195.58 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d2af13-c27a-4e3b-90b1-73db8245eaf6")
 	)
 	(wire
 		(pts
@@ -2773,37 +2666,6 @@
 		)
 		(uuid "fd5aa281-381a-4e38-8f43-fe5f2bd131e6")
 	)
-	(wire
-		(pts
-			(xy 195.58 44.45) (xy 200.66 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff7c998f-c1d6-433b-8389-e6349bfc6b97")
-	)
-	(global_label "RXD"
-		(shape output)
-		(at 200.66 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16295a52-529e-48ae-80d8-338c459b34a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.3947 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape bidirectional)
 		(at 138.43 60.96 0)
@@ -2842,27 +2704,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "TXD"
-		(shape input)
-		(at 200.66 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7411e744-55a7-4116-ac91-5d77a8af4068")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.0923 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4049,100 +3890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 193.04 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "311abe11-ffc6-4d17-aa07-c5681efea467")
-		(property "Reference" "TP12"
-			(at 193.04 36.322 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 193.04 36.576 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 198.12 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 193.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 193.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 193.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 193.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ee57f8d-45d8-468b-b750-acb33145a9e2")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CRGM Connector:JST-SH-3")
 		(at 66.04 53.34 0)
 		(unit 1)
@@ -4258,71 +4005,6 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 200.66 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39d194cc-db87-471c-b068-07b83da65293")
-		(property "Reference" "#PWR035"
-			(at 200.66 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef825a74-b6fc-4746-bb27-65f2575778f6")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5425,129 +5107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CRGM Connector:JST-SH-3")
-		(at 187.96 41.91 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9703844a-c078-4497-807b-99b6c90d25cc")
-		(property "Reference" "J8"
-			(at 187.96 39.116 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-					(thickness 0.3556)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 187.96 52.324 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-					(thickness 0.3556)
-					(bold yes)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 186.69 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 187.96 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "JST SH 1.0mm 3 Position"
-			(at 185.928 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" "JST"
-			(at 187.96 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BM04B-SRSS-TB"
-			(at 187.96 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
-			(at 187.96 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "306-BM04BSRSSTBTLFSN"
-			(at 187.96 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2919601"
-			(at 187.96 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13e3d7ec-f96e-4fb7-8890-8806a404ff23")
-		)
-		(pin "2"
-			(uuid "815882bf-2062-4f9d-863f-37a59b105cd3")
-		)
-		(pin "3"
-			(uuid "a1fa8a6c-c4c5-4b18-bd9a-b56b47657f92")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CRGM Passive:PESD3V3S1BL")
 		(at 50.8 62.23 90)
 		(unit 1)
@@ -5752,100 +5311,6 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 195.58 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3ed81b7-e56a-45cf-8b25-1cc7d7560ac3")
-		(property "Reference" "TP13"
-			(at 195.58 36.322 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 195.58 36.576 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 195.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 195.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 195.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 195.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dae97d79-7ab0-49d4-8517-ecda43b5345e")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
-					(reference "TP13")
 					(unit 1)
 				)
 			)
