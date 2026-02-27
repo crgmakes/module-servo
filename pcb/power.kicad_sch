@@ -5,7 +5,7 @@
 	(uuid "0719e832-1413-43f4-a7d6-5b760ae13c21")
 	(paper "A4")
 	(title_block
-		(title "Relay Module")
+		(title "Servo Module")
 		(date "2025-03-22")
 		(rev "1.0")
 		(company "CRG Makes")
