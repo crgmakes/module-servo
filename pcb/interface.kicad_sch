@@ -185,6 +185,42 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -214,7 +250,7 @@
 				)
 			)
 			(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-				(at 1.27 8.89 0)
+				(at 0 -25.146 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -223,7 +259,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-				(at 0 -23.876 0)
+				(at 0 -22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -232,7 +268,7 @@
 				)
 			)
 			(property "Description" "JST SH 1.0mm 3 Position"
-				(at 2.032 6.35 0)
+				(at 0 -27.432 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -241,7 +277,7 @@
 				)
 			)
 			(property "MN" "JST"
-				(at 0 -12.7 0)
+				(at 0.508 -18.288 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -250,7 +286,7 @@
 				)
 			)
 			(property "MPN" "BM04B-SRSS-TB"
-				(at 0 -14.478 0)
+				(at 0.508 -20.066 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -259,7 +295,7 @@
 				)
 			)
 			(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
-				(at 0 -18.796 0)
+				(at 0 -32.004 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -268,7 +304,7 @@
 				)
 			)
 			(property "Mouser" "306-BM04BSRSSTBTLFSN"
-				(at 0 -21.336 0)
+				(at 0 -34.544 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -277,7 +313,7 @@
 				)
 			)
 			(property "LCSC" "C2919601"
-				(at 0 -16.51 0)
+				(at 0 -36.576 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -388,6 +424,42 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -414,10 +486,11 @@
 						(bold yes)
 					)
 					(justify left top)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "CRGM Connector:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-				(at 4.572 -18.034 0)
+				(at 4.318 -27.686 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -435,7 +508,7 @@
 				)
 			)
 			(property "Description" "I2C Qwiic Connector 1mm pitch JST"
-				(at 4.318 -13.97 0)
+				(at 4.064 -23.622 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -444,7 +517,7 @@
 				)
 			)
 			(property "MN" "JST"
-				(at 4.318 -16.256 0)
+				(at 2.54 -22.098 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -453,7 +526,7 @@
 				)
 			)
 			(property "MPN" "BM04B-SRSS-TBT(LF)(SN)"
-				(at 4.572 -20.066 0)
+				(at 4.318 -29.718 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -462,7 +535,7 @@
 				)
 			)
 			(property "Mouser" "306-BM04BSRSSTBTLFSN"
-				(at 5.08 -22.098 0)
+				(at 4.826 -31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -471,7 +544,7 @@
 				)
 			)
 			(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
-				(at 5.588 -24.13 0)
+				(at 5.334 -33.782 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -480,7 +553,7 @@
 				)
 			)
 			(property "LCSC" "C2919601"
-				(at 4.826 -26.162 0)
+				(at 4.572 -35.814 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -512,39 +585,75 @@
 			)
 			(symbol "QWIIC_1_0"
 				(text "SCL"
-					(at 3.302 -2.54 0)
+					(at 7.366 -2.54 0)
 					(effects
 						(font
 							(size 1.25 1.25)
 						)
-						(justify left)
+						(justify right)
 					)
 				)
 				(text "SDA"
-					(at 3.302 -5.08 0)
+					(at 7.366 -5.08 0)
 					(effects
 						(font
 							(size 1.25 1.25)
 						)
-						(justify left)
+						(justify right)
 					)
 				)
 				(text "VCC"
-					(at 3.302 -7.62 0)
+					(at 7.366 -7.62 0)
 					(effects
 						(font
 							(size 1.25 1.25)
 						)
-						(justify left)
+						(justify right)
 					)
 				)
 				(text "GND"
-					(at 3.302 -10.16 0)
+					(at 7.366 -10.16 0)
 					(effects
 						(font
 							(size 1.25 1.25)
 						)
-						(justify left)
+						(justify right)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
 					)
 				)
 				(pin passive line
@@ -2205,7 +2314,7 @@
 	)
 	(rectangle
 		(start 25.4 25.4)
-		(end 85.725 141.224)
+		(end 85.725 152.4)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -2232,7 +2341,7 @@
 	)
 	(text "Servo"
 		(exclude_from_sim no)
-		(at 25.4 140.97 0)
+		(at 25.4 152.4 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2275,7 +2384,7 @@
 		(uuid "09b36c7b-b5ff-445f-bd9e-80ff5a82dff0")
 	)
 	(junction
-		(at 52.07 100.33)
+		(at 52.07 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e5ef091-4eee-4c04-919b-a768da01a8c6")
@@ -2287,13 +2396,19 @@
 		(uuid "53c31060-319c-45b2-8881-79c4d6e63f42")
 	)
 	(junction
+		(at 50.8 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "859a96a4-bc05-4357-9457-d6e28dff9ea0")
+	)
+	(junction
 		(at 50.8 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90a99ab9-8fe8-4381-9544-5f40ac65bcfd")
 	)
 	(junction
-		(at 45.72 100.33)
+		(at 45.72 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96d3afa5-6bc0-4781-913e-8e6bb72d4a4e")
@@ -2311,7 +2426,7 @@
 		(uuid "b2142f1b-04fe-451c-ad01-28a972d1fd0b")
 	)
 	(junction
-		(at 59.69 100.33)
+		(at 59.69 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2426f2b-cbe4-41ea-a25a-399facbaf824")
@@ -2328,7 +2443,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 127) (xy 59.69 127)
+			(xy 45.72 102.87) (xy 50.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbad257-14ad-48ad-85b4-100990d28f45")
+	)
+	(wire
+		(pts
+			(xy 62.23 148.59) (xy 59.69 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2348,13 +2473,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 100.33) (xy 52.07 102.87)
+			(xy 52.07 121.92) (xy 52.07 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "12959756-6add-4fad-99a4-12578d5b7ddb")
+	)
+	(wire
+		(pts
+			(xy 50.8 102.87) (xy 63.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d96ae8-5228-485c-9d07-616ca4cf59c9")
 	)
 	(wire
 		(pts
@@ -2368,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 100.33) (xy 59.69 102.87)
+			(xy 59.69 121.92) (xy 59.69 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2378,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 100.33) (xy 59.69 100.33)
+			(xy 63.5 121.92) (xy 59.69 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2468,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 127) (xy 52.07 127)
+			(xy 49.53 148.59) (xy 52.07 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2528,7 +2663,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 100.33) (xy 59.69 100.33)
+			(xy 50.8 102.87) (xy 50.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf2cd49-5e9b-43f6-bde0-30843d0abea3")
+	)
+	(wire
+		(pts
+			(xy 52.07 121.92) (xy 59.69 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2558,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 100.33) (xy 45.72 102.87)
+			(xy 45.72 121.92) (xy 45.72 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2568,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 97.79) (xy 63.5 97.79)
+			(xy 39.37 119.38) (xy 63.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2588,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 100.33) (xy 45.72 100.33)
+			(xy 39.37 121.92) (xy 45.72 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2638,7 +2783,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 100.33) (xy 52.07 100.33)
+			(xy 45.72 121.92) (xy 52.07 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2648,7 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 124.46) (xy 62.23 127)
+			(xy 62.23 146.05) (xy 62.23 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2658,7 +2803,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 124.46) (xy 49.53 127)
+			(xy 49.53 146.05) (xy 49.53 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2720,6 +2865,27 @@
 		(uuid "7eee143f-4784-4190-8c6b-abea97cfbe2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 35.4777 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SERVO4"
+		(shape input)
+		(at 45.72 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d840a33-dd95-4b8c-9521-4caf4d1af9f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.4777 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +3073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 107.95 0)
+		(at 52.07 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2915,7 +3081,7 @@
 		(dnp no)
 		(uuid "011e2752-4789-47d7-9f2b-d22de82008ae")
 		(property "Reference" "#PWR022"
-			(at 52.07 114.3 0)
+			(at 52.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +3090,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.102 111.506 0)
+			(at 54.102 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +3099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 107.95 0)
+			(at 52.07 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +3108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 107.95 0)
+			(at 52.07 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +3117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 107.95 0)
+			(at 52.07 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,6 +3232,227 @@
 		)
 	)
 	(symbol
+		(lib_id "CRGM Connector:JST-SH-3")
+		(at 66.04 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a1a323b-558c-46f6-b082-257c7eb59065")
+		(property "Reference" "J3"
+			(at 66.04 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 63.754 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+					(thickness 0.3556)
+					(bold yes)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 66.04 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST SH 1.0mm 3 Position"
+			(at 68.072 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "JST"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM04B-SRSS-TB"
+			(at 66.04 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+			(at 66.04 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "306-BM04BSRSSTBTLFSN"
+			(at 66.04 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2919601"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "598014bf-8248-4e4c-a298-40a94dae0ae3")
+		)
+		(pin "2"
+			(uuid "8ce4fa53-c3c7-4b4d-b802-77c008224ffa")
+		)
+		(pin "3"
+			(uuid "9206e66a-8899-4339-bdb4-e902df226a95")
+		)
+		(pin "0"
+			(uuid "e03d9ca9-095b-49a5-a7bc-41a432dd91cf")
+		)
+		(pin "4"
+			(uuid "60d1ece5-17d9-47b2-9a85-b84e20f3afe1")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a7ae0c6-8ddf-4101-9535-c31e94f26520")
+		(property "Reference" "TP12"
+			(at 50.8 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "SERVO4"
+			(at 47.498 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 50.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 50.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f7da35a-6df2-4b2e-9d97-b0b44adde904")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CRGM Connector:QWIIC")
 		(at 109.22 30.48 0)
 		(unit 1)
@@ -3094,7 +3481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "CRGM Connector:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 113.792 48.514 0)
 			(effects
 				(font
@@ -3112,7 +3499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 Position, 1mm pitch"
+		(property "Description" "I2C Qwiic Connector 1mm pitch JST"
 			(at 113.538 44.45 0)
 			(effects
 				(font
@@ -3130,7 +3517,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SM04B-SRSS-TBT(LF)(SN)"
+		(property "MPN" "BM04B-SRSS-TBT(LF)(SN)"
 			(at 113.792 50.546 0)
 			(effects
 				(font
@@ -3157,7 +3544,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2763614"
+		(property "LCSC" "C2919601"
 			(at 114.046 56.642 0)
 			(effects
 				(font
@@ -3177,6 +3564,12 @@
 		)
 		(pin "2"
 			(uuid "51f99e5f-20b4-4ba5-9fb2-9bb3aaae98ea")
+		)
+		(pin "5"
+			(uuid "eba8a095-8a60-48b8-b45f-53eb00b248be")
+		)
+		(pin "0"
+			(uuid "8dfef5f5-5c5d-4290-a3d2-48d368b69467")
 		)
 		(instances
 			(project "servo-module"
@@ -3248,6 +3641,72 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bb0229c-fb0f-45f1-a83a-581b216da5b5")
+		(property "Reference" "#PWR073"
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d12665c-96eb-4a05-b149-b374cba9308f")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3413,129 +3872,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CRGM Connector:JST-SH-3")
-		(at 66.04 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "176de6f8-5258-4648-8e67-85bd3c6b755b")
-		(property "Reference" "J4"
-			(at 66.04 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 66.04 86.614 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-					(thickness 0.3556)
-					(bold yes)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Connector:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 67.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 66.04 100.076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "JST SH 1.0mm 3 Position"
-			(at 68.072 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" "JST"
-			(at 66.04 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SM03B-SRSS-TB"
-			(at 66.04 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "455-SM03B-SRSS-TBTR-ND"
-			(at 66.04 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "306-SM03BSRSSTBTLFSN"
-			(at 66.04 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2763613"
-			(at 66.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4d15ecd-e0b5-413f-bda6-381fc4923a1f")
-		)
-		(pin "2"
-			(uuid "0e57e66a-393c-4d0b-84bb-89b696154815")
-		)
-		(pin "3"
-			(uuid "d8778ae0-024c-4570-b7d0-dd9d77c09978")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 55.88 127 0)
+		(at 55.88 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3543,7 +3881,7 @@
 		(dnp no)
 		(uuid "1f6a1a3a-2f32-4993-b31d-56aba7832112")
 		(property "Reference" "JP5"
-			(at 55.88 124.968 0)
+			(at 55.88 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3889,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 55.88 129.54 0)
+			(at 55.88 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3898,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Connector:SolderJumper-2_P2.0mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 55.88 127 0)
+			(at 55.88 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 127 0)
+			(at 55.88 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3916,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 55.88 127 0)
+			(at 55.88 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3925,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 55.88 127 0)
+			(at 55.88 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3934,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 55.88 127 0)
+			(at 55.88 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3943,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 55.88 127 0)
+			(at 55.88 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +4033,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 49.53 124.46 0)
+		(at 49.53 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3703,7 +4041,7 @@
 		(dnp no)
 		(uuid "21797b07-955e-42f4-bc03-8b1d0cef7448")
 		(property "Reference" "#PWR018"
-			(at 49.53 128.27 0)
+			(at 49.53 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +4050,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 49.53 121.666 0)
+			(at 49.53 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +4059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 124.46 0)
+			(at 49.53 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +4068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 124.46 0)
+			(at 49.53 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +4077,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 49.53 124.46 0)
+			(at 49.53 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,6 +4164,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 76.2 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a8c6e79-f08d-42e1-bc7c-779e080eda9f")
+		(property "Reference" "#PWR061"
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.756 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3353be69-d22e-4082-8f6b-c38a3ac7c6fd")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 50.8 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3890,38 +4294,16 @@
 		)
 	)
 	(symbol
-		(lib_id "CRGM Connector:JST-SH-3")
-		(at 66.04 53.34 0)
+		(lib_id "power:GND")
+		(at 76.2 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "32807c9e-ac54-449b-b0ac-1bb0c748390d")
-		(property "Reference" "J3"
-			(at 66.04 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 66.04 63.754 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-					(thickness 0.3556)
-					(bold yes)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRGM Connector:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 67.31 44.45 0)
+		(uuid "3edcd6a3-57e7-4ec5-94fd-4843d7ea1095")
+		(property "Reference" "#PWR060"
+			(at 82.55 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,8 +4311,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 66.04 77.216 0)
+		(property "Value" "GND"
+			(at 79.756 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,8 +4329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST SH 1.0mm 3 Position"
-			(at 68.072 46.99 0)
+		(property "Datasheet" ""
+			(at 76.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,44 +4338,8 @@
 				(hide yes)
 			)
 		)
-		(property "MN" "JST"
-			(at 66.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SM03B-SRSS-TB"
-			(at 66.04 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "455-SM03B-SRSS-TBTR-ND"
-			(at 66.04 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "306-SM03BSRSSTBTLFSN"
-			(at 66.04 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2763613"
-			(at 66.04 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,18 +4348,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a23f611e-3f09-4cc7-b10b-2ddfa2c2a5bb")
-		)
-		(pin "2"
-			(uuid "0a091bcb-cd0e-480f-8b04-2f7edeacec4b")
-		)
-		(pin "3"
-			(uuid "aef5e13f-b08e-49a2-b7ad-581f3e97adf8")
+			(uuid "915107e9-2867-437f-b90e-0645ffcdf522")
 		)
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
-					(reference "J3")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4077,15 +4426,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 97.79 270)
+		(at 76.2 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4630f5d0-a118-4363-805b-7af4887d1dc0")
-		(property "Reference" "#PWR015"
-			(at 33.02 97.79 0)
+		(uuid "41603022-5f1c-46e8-87c2-3cdcb9165fc2")
+		(property "Reference" "#PWR062"
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4443,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 97.79 90)
+			(at 79.756 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 97.79 0)
+			(at 76.2 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 97.79 0)
+			(at 76.2 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4470,205 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 97.79 0)
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "515950e7-faf6-488a-a0c1-06f09db74cc7")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42cdba1b-23f8-4f06-8b7b-bca34ec2a992")
+		(property "Reference" "#PWR076"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.756 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33648a4e-0c75-4031-a3fd-e526cd6b14a1")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44510c4e-759d-4765-8185-bb8a21e2f870")
+		(property "Reference" "#PWR035"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.994 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2843e295-c8c6-4dcc-879d-e8503a93b0ec")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4630f5d0-a118-4363-805b-7af4887d1dc0")
+		(property "Reference" "#PWR015"
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,6 +4683,72 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b369d09-e762-409d-a80f-abd535d30965")
+		(property "Reference" "#PWR067"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.124 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df0b6e2f-3baf-49ab-9351-9e4cb7a7b14c")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4229,6 +4842,72 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4efd403e-0505-4bdd-8c8b-87b831ac8d39")
+		(property "Reference" "#PWR057"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.248 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d126109-9466-4cf5-9a2d-ab13b353f022")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4353,6 +5032,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 76.2 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fd82f17-bfec-4d9c-a9c4-3bdf5647ce61")
+		(property "Reference" "#PWR075"
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.756 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2045578b-033a-432d-9b93-9e852138bd3a")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 63.5 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4419,7 +5164,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 107.95 0)
+		(at 45.72 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4427,7 +5172,7 @@
 		(dnp no)
 		(uuid "6fcded36-5b87-4e46-b9bc-67d43f1869f6")
 		(property "Reference" "#PWR017"
-			(at 45.72 114.3 0)
+			(at 45.72 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +5181,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 47.752 111.506 0)
+			(at 47.752 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +5190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 107.95 0)
+			(at 45.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +5199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 107.95 0)
+			(at 45.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +5208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 107.95 0)
+			(at 45.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +5230,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 52.07 105.41 0)
+		(at 52.07 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4493,7 +5238,7 @@
 		(dnp no)
 		(uuid "70f57032-067b-48c0-ba30-fd37b87b02f8")
 		(property "Reference" "C2"
-			(at 53.594 104.14 0)
+			(at 53.594 125.73 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4502,7 +5247,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 53.594 106.68 0)
+			(at 53.594 128.27 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4511,7 +5256,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Passive:C_0603_1608Metric"
-			(at 53.0352 109.22 0)
+			(at 53.0352 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +5265,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104KO8NNNC_Spec.pdf"
-			(at 52.07 105.41 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +5274,7 @@
 			)
 		)
 		(property "Description" "CAP CER 100nF 16V X5R 0603"
-			(at 52.07 105.41 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +5283,7 @@
 			)
 		)
 		(property "MN" "Samsung"
-			(at 52.07 105.41 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +5292,7 @@
 			)
 		)
 		(property "MPN" "CL10B104KO8NNNC"
-			(at 52.07 105.41 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +5301,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10B104KO8NNNC"
-			(at 52.07 105.41 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +5310,7 @@
 			)
 		)
 		(property "Digikey" "1276-1005-2-ND"
-			(at 52.07 105.41 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +5319,7 @@
 			)
 		)
 		(property "LCSC" "C66501"
-			(at 52.07 105.41 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +5328,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 52.07 105.41 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +5337,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 52.07 105.41 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +5346,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 52.07 105.41 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,6 +5436,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a58328f-ccce-46bc-a950-bb304c6aa875")
+		(property "Reference" "#PWR058"
+			(at 82.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.756 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73e5df2e-afd4-40ed-b3fd-159596f4e815")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d91ddf9-61b2-4245-bfac-45550a46775b")
+		(property "Reference" "#PWR059"
+			(at 82.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.756 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc38b890-d17b-41cc-b449-c6092f7117ed")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CRGM Connector:QWIIC")
 		(at 109.22 55.88 0)
 		(unit 1)
@@ -4719,7 +5596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Connector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "CRGM Connector:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 113.792 73.914 0)
 			(effects
 				(font
@@ -4737,7 +5614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 Position, 1mm pitch"
+		(property "Description" "I2C Qwiic Connector 1mm pitch JST"
 			(at 113.538 69.85 0)
 			(effects
 				(font
@@ -4755,7 +5632,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SM04B-SRSS-TBT(LF)(SN)"
+		(property "MPN" "BM04B-SRSS-TBT(LF)(SN)"
 			(at 113.792 75.946 0)
 			(effects
 				(font
@@ -4764,7 +5641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "306-SM04BSRSSTBTLFSN"
+		(property "Mouser" "306-BM04BSRSSTBTLFSN"
 			(at 114.3 77.978 0)
 			(effects
 				(font
@@ -4773,7 +5650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "455-SM04B-SRSS-TBTR-ND"
+		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
 			(at 114.808 80.01 0)
 			(effects
 				(font
@@ -4782,7 +5659,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2763614"
+		(property "LCSC" "C2919601"
 			(at 114.046 82.042 0)
 			(effects
 				(font
@@ -4802,6 +5679,12 @@
 		)
 		(pin "2"
 			(uuid "58c1822a-b166-4fa6-8d23-bd3dbfeede22")
+		)
+		(pin "5"
+			(uuid "061bb4ac-074e-42da-93b3-00259b89d041")
+		)
+		(pin "0"
+			(uuid "2b1f207a-59e6-4116-bb37-a6c149e60c0b")
 		)
 		(instances
 			(project "servo-module"
@@ -4872,6 +5755,123 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRGM Passive:PESD3V3S1BL")
+		(at 50.8 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ded9580-fdb1-4338-bc56-a5cd7f088e8e")
+		(property "Reference" "D13"
+			(at 53.848 107.696 0)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.125)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PESD3V3S1BL"
+			(at 54.356 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.125)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Passive:DFN1006-2"
+			(at 55.88 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nexperia.com/product/PESD3V3S1BL"
+			(at 60.452 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PESD3V3S1BL - Low capacitance bidirectional ESD protection diode\nVrwm=3.3v\nSource: https://assets.nexperia.com/documents/data-sheet/PESD3V3S1BL.pdf  Datasheet\nJLCPCB - C552521  Alternate https://jlcpcb.com/partdetail/DiodesIncorporated-DESD3V3S1BL7B/C500765 DESD3V3S1BL\nJLCPCB - C500765\nhttps://jlcpcb.com/partdetail/Fuxinsemi-LESD8D33CAT5G/C5563754 LESD8D3.3CAT5G\nJLCPCB - C5563754"
+			(at 69.85 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5563754"
+			(at 87.376 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1727-PESD3V3S1BLYLTR-ND"
+			(at 85.344 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "621-DESD3V3S1BL-7B"
+			(at 83.312 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "FUXINSEMI"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LESD8D3.3CAT5G"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8627745c-6528-4688-b407-6ad9ba46d158")
+		)
+		(pin "2"
+			(uuid "fdfcc458-703e-4a88-bdfc-25cb42f07f5a")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4972,8 +5972,101 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fb3c577-fa92-4638-ac9d-b8314e247118")
+		(property "Reference" "#PWR074"
+			(at 67.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSERVO"
+			(at 60.96 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b22cf1f-a883-4603-afee-2fc16cf2c51d")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CRGM Passive:C_Polarized_Small")
-		(at 59.69 105.41 0)
+		(at 59.69 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4981,7 +6074,7 @@
 		(dnp no)
 		(uuid "9474fa39-8ac2-42c0-8eae-27b827e16096")
 		(property "Reference" "C3"
-			(at 59.944 103.886 0)
+			(at 59.944 125.476 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4990,7 +6083,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 59.944 107.188 0)
+			(at 59.944 128.778 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4999,7 +6092,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Passive:CP_Elec_5x5.4"
-			(at 59.69 105.41 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +6101,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589785031246700544"
-			(at 59.69 105.41 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +6110,7 @@
 			)
 		)
 		(property "Description" "-40℃~+105℃ 100uF 10V 2000hrs@105℃ 40mA@120Hz 5.4mm 5mm ±20% SMD,D5xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS"
-			(at 59.69 115.57 0)
+			(at 59.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +6119,7 @@
 			)
 		)
 		(property "MN" "ROQANG"
-			(at 59.69 105.41 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +6128,7 @@
 			)
 		)
 		(property "MPN" "RVT1C101M0505"
-			(at 59.69 105.41 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +6137,7 @@
 			)
 		)
 		(property "Mouser" "667-EEE-1AA101WAR"
-			(at 59.69 105.41 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5054,7 +6147,7 @@
 			)
 		)
 		(property "Digikey" "PCE4566TR-ND"
-			(at 59.69 105.41 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5064,7 +6157,7 @@
 			)
 		)
 		(property "LCSC" "C72473"
-			(at 59.69 105.41 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5074,7 +6167,7 @@
 			)
 		)
 		(property "Height" "5.4"
-			(at 59.69 105.41 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +6176,7 @@
 			)
 		)
 		(property "WVDC" "10"
-			(at 59.69 105.41 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,6 +6194,72 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9829206a-7520-4dbd-8ae9-65ff086aac29")
+		(property "Reference" "#PWR066"
+			(at 100.33 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.124 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee800375-94ca-4a3f-9a2c-256ea7a03e23")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5225,7 +6384,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 62.23 124.46 0)
+		(at 62.23 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5233,7 +6392,7 @@
 		(dnp no)
 		(uuid "a18338ed-d285-4459-9431-a88417bf6aff")
 		(property "Reference" "#PWR024"
-			(at 62.23 128.27 0)
+			(at 62.23 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +6401,7 @@
 			)
 		)
 		(property "Value" "VSERVO"
-			(at 62.23 121.92 90)
+			(at 62.23 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +6410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 124.46 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +6419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 124.46 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +6428,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 124.46 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,7 +6437,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 62.23 124.46 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +6446,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 62.23 124.46 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +6455,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 62.23 124.46 0)
+			(at 62.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,6 +6535,199 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc6f3916-5b41-4adc-b63f-9531141848df")
+		(property "Reference" "#PWR064"
+			(at 100.33 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.124 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38dc1a6f-68e3-4e31-9bec-a52b2d2810e4")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRGM Connector:JST-SH-3")
+		(at 66.04 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bced9a7c-6a87-4e14-acaa-dd4e36655dc2")
+		(property "Reference" "J8"
+			(at 66.04 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 108.204 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+					(thickness 0.3556)
+					(bold yes)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 67.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 66.04 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST SH 1.0mm 3 Position"
+			(at 68.072 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "JST"
+			(at 66.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM04B-SRSS-TB"
+			(at 66.04 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+			(at 66.04 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "306-BM04BSRSSTBTLFSN"
+			(at 66.04 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2919601"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "144cdf65-a383-4fba-9669-b0bcadd03753")
+		)
+		(pin "2"
+			(uuid "83d7caec-a754-4c47-b0c5-3f4679bcd6f0")
+		)
+		(pin "3"
+			(uuid "96981f95-acd6-415c-a395-93aa3641c832")
+		)
+		(pin "0"
+			(uuid "31db0770-0ee0-4f07-bb17-da5173734413")
+		)
+		(pin "4"
+			(uuid "f8ab4495-889d-4117-8f3e-7a82c87316bd")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5477,7 +6829,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 107.95 0)
+		(at 59.69 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5485,7 +6837,7 @@
 		(dnp no)
 		(uuid "bf0cc058-32c3-4889-92fa-c4f6279fb492")
 		(property "Reference" "#PWR023"
-			(at 59.69 114.3 0)
+			(at 59.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +6846,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 61.722 111.506 0)
+			(at 61.722 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +6855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 107.95 0)
+			(at 59.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +6864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 107.95 0)
+			(at 59.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +6873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 107.95 0)
+			(at 59.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +6988,7 @@
 	)
 	(symbol
 		(lib_id "CRGM Passive:PESD5V5C1BLYL")
-		(at 45.72 105.41 90)
+		(at 45.72 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5644,7 +6996,7 @@
 		(dnp no)
 		(uuid "c1601785-19f2-4969-8ffa-bb6f29e47546")
 		(property "Reference" "D4"
-			(at 48.768 106.68 0)
+			(at 48.768 128.27 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5654,7 +7006,7 @@
 			)
 		)
 		(property "Value" "PESD5V5C1BL"
-			(at 49.276 110.49 0)
+			(at 49.276 132.08 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5666,7 +7018,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Passive:DFN1006-2"
-			(at 64.516 103.886 0)
+			(at 64.516 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +7027,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V5C1BL.pdf"
-			(at 62.484 99.568 0)
+			(at 62.484 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +7036,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE Vrwm=5.5v Vcl=5.4v Ippm=6.5A DFN10062"
-			(at 50.8 105.41 0)
+			(at 50.8 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +7045,7 @@
 			)
 		)
 		(property "LCSC" "C2827636"
-			(at 60.452 105.41 0)
+			(at 60.452 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +7054,7 @@
 			)
 		)
 		(property "Mouser" "771-PESD5V5C1BLYL"
-			(at 56.896 105.41 0)
+			(at 56.896 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +7063,7 @@
 			)
 		)
 		(property "Digikey" "1727-PESD5V5C1BLYLTR-ND"
-			(at 58.674 105.41 0)
+			(at 58.674 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +7072,7 @@
 			)
 		)
 		(property "MN" "TECH PUBLIC"
-			(at 52.578 105.41 0)
+			(at 52.578 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +7081,7 @@
 			)
 		)
 		(property "MPN" "TPSP3022-01ETG"
-			(at 54.864 105.41 0)
+			(at 54.864 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,6 +7099,199 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c94cfbb2-af12-4ddf-a916-afbfa5217bc3")
+		(property "Reference" "#PWR063"
+			(at 82.55 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.756 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bb072f1-a8c3-429a-b61d-e52a49d11129")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRGM Connector:JST-SH-3")
+		(at 66.04 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efb4cccd-6999-4c98-828f-02487657d3f4")
+		(property "Reference" "J4"
+			(at 66.04 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 86.614 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+					(thickness 0.3556)
+					(bold yes)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 66.04 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST SH 1.0mm 3 Position"
+			(at 68.072 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "JST"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM04B-SRSS-TB"
+			(at 66.04 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+			(at 66.04 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "306-BM04BSRSSTBTLFSN"
+			(at 66.04 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2919601"
+			(at 66.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f816dbe-0ee7-42e8-98b6-75cae3bafae0")
+		)
+		(pin "2"
+			(uuid "65d87310-b396-499c-acfb-785b68a195f5")
+		)
+		(pin "3"
+			(uuid "f7421837-8e9a-4886-8060-e46008b887b7")
+		)
+		(pin "0"
+			(uuid "f4697f2d-14d4-428e-9314-3cc23e2c5624")
+		)
+		(pin "4"
+			(uuid "4525eb5a-b295-4af7-87a3-36568c673bf5")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5783,7 +7328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Connector:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
 			(at 67.31 22.86 0)
 			(effects
 				(font
@@ -5819,7 +7364,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SM03B-SRSS-TB"
+		(property "MPN" "BM04B-SRSS-TB"
 			(at 66.04 46.228 0)
 			(effects
 				(font
@@ -5828,7 +7373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "455-SM03B-SRSS-TBTR-ND"
+		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
 			(at 66.04 50.546 0)
 			(effects
 				(font
@@ -5837,7 +7382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "306-SM03BSRSSTBTLFSN"
+		(property "Mouser" "306-BM04BSRSSTBTLFSN"
 			(at 66.04 53.086 0)
 			(effects
 				(font
@@ -5846,7 +7391,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2763613"
+		(property "LCSC" "C2919601"
 			(at 66.04 48.26 0)
 			(effects
 				(font
@@ -5863,6 +7408,12 @@
 		)
 		(pin "3"
 			(uuid "58be55b6-42dd-4010-a45c-35b1bd257f3e")
+		)
+		(pin "0"
+			(uuid "dc873d7f-3ba2-4873-b08e-dbbe42e41d9e")
+		)
+		(pin "4"
+			(uuid "2f2064ba-9e75-45fe-a673-d2838396c0b1")
 		)
 		(instances
 			(project "servo-module"
@@ -5991,8 +7542,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f711b9cd-0994-4bee-93e3-08a8a17de726")
+		(property "Reference" "#PWR072"
+			(at 50.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3741bab0-7eef-47a7-b888-e77dd17d7771")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CRGM Connector:JST-SH-2")
-		(at 66.04 97.79 0)
+		(at 66.04 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6000,7 +7616,7 @@
 		(dnp no)
 		(uuid "f8d1416a-db15-47de-af66-148bf4ab788d")
 		(property "Reference" "J5"
-			(at 66.04 94.996 0)
+			(at 66.04 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +7626,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 66.04 108.204 0)
+			(at 66.04 129.794 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6021,8 +7637,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Connector:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
-			(at 67.31 88.9 0)
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+			(at 67.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +7647,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 66.04 116.84 0)
+			(at 66.04 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,8 +7655,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST SH 1.0mm 2 Position Horizontal"
-			(at 68.072 91.44 0)
+		(property "Description" "JST SH 1.0mm 2 Position"
+			(at 68.072 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +7665,7 @@
 			)
 		)
 		(property "MN" "JST"
-			(at 66.04 108.458 0)
+			(at 66.04 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,8 +7673,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SM02B-SRSS-TB"
-			(at 66.04 110.49 0)
+		(property "MPN" "BM02B-SRSS-TB"
+			(at 66.04 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,8 +7682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "455-SM02B-SRSS-TBTR-ND"
-			(at 66.04 112.776 0)
+		(property "Digikey" "455-1788-2-ND"
+			(at 66.04 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,8 +7691,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "306-SM02BSRSSTBLFSN"
-			(at 66.04 114.808 0)
+		(property "Mouser" "306-BM02BSRSSTBLFSNP"
+			(at 66.04 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +7701,7 @@
 			)
 		)
 		(property "LCSC" "C2904984"
-			(at 66.04 97.79 0)
+			(at 66.04 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,6 +7715,12 @@
 		(pin "1"
 			(uuid "fcefc5e5-b195-431a-8a95-0e46f66eb012")
 		)
+		(pin "3"
+			(uuid "97edcdc0-d7d1-4f47-9132-cb1c37ddbee6")
+		)
+		(pin "0"
+			(uuid "2754a755-b6a4-42fd-bf17-67e8c478d95e")
+		)
 		(instances
 			(project ""
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
@@ -6110,7 +7732,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 39.37 100.33 90)
+		(at 39.37 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6118,7 +7740,7 @@
 		(dnp no)
 		(uuid "fbd72182-a456-462b-bcd4-d5a331471d55")
 		(property "Reference" "#PWR016"
-			(at 43.18 100.33 0)
+			(at 43.18 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +7749,7 @@
 			)
 		)
 		(property "Value" "VSERVO"
-			(at 36.83 100.33 90)
+			(at 36.83 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,7 +7758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 100.33 0)
+			(at 39.37 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,7 +7767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 100.33 0)
+			(at 39.37 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6154,7 +7776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 39.37 100.33 0)
+			(at 39.37 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6163,7 +7785,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 39.37 100.33 0)
+			(at 39.37 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +7794,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 39.37 100.33 0)
+			(at 39.37 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +7803,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 39.37 100.33 0)
+			(at 39.37 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,6 +7818,72 @@
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd3c8612-f2a9-4760-a799-89ede425c75f")
+		(property "Reference" "#PWR065"
+			(at 100.33 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.124 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3e4348e-0317-4de8-88f0-67e62cbb0a8f")
+		)
+		(instances
+			(project "servo-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
