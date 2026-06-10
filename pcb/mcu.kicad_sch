@@ -4755,7 +4755,7 @@
 				(hide yes)
 			)
 		)
-		(property "MN" "FOJAN "
+		(property "MN" "FOJAN"
 			(at 49.53 50.8 0)
 			(effects
 				(font
@@ -5712,7 +5712,7 @@
 				(hide yes)
 			)
 		)
-		(property "MN" "FOJAN "
+		(property "MN" "FOJAN"
 			(at 55.88 50.8 0)
 			(effects
 				(font

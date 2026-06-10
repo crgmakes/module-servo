@@ -7722,7 +7722,7 @@
 			(uuid "2754a755-b6a4-42fd-bf17-67e8c478d95e")
 		)
 		(instances
-			(project ""
+			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/79999e2d-f9ce-43cc-89fd-ab3014c490c1"
 					(reference "J5")
 					(unit 1)
