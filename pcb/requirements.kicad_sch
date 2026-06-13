@@ -19721,7 +19721,7 @@
 		)
 		(uuid "010327bd-46ff-49c5-8499-ce7e6d092554")
 	)
-	(text_box "BASIC\n\n* ATTiny1616 Processor\n* Adafruit Seesaw Protocol\n* Three Servo Ports\n* Power In/Out Ports\n* Optional Pull Ups for I2C\n* I2C Address Selection (2-bits)\n* Servo power connector\n* Servo status indicators"
+	(text_box "BASIC\n\n* STM3C0 Processor\n* 8MHz Crystal\n* Adafruit Seesaw Protocol\n* Four Servo Ports\n* Power In/Out Ports\n* Optional Pull Ups for I2C\n* I2C Address Selection (2-bits)\n* Servo power connector\n* Servo status indicators"
 		(exclude_from_sim yes)
 		(at 19.05 32.385 0)
 		(size 69.85 55.88)
@@ -19746,7 +19746,7 @@
 		)
 		(uuid "520c8b49-dad7-48c2-8b36-5125baaea506")
 	)
-	(text_box "Interfaces:\n* 2 - QWICC\n* 2 - Aquarius Power\n* 1 - Servo Power Input\n* 1 - Serial\n* 3 - Servo Out\n\nOUTPUT:\n* 3 Servo Out\n"
+	(text_box "Interfaces:\n* 2 - QWICC\n* 2 - Aquarius Power\n* 1 - Servo Power Input\n* 1 - Serial\n* 1 - Prg/Debug Port\n\nOUTPUT:\n* 4 - Servo Out\n\n"
 		(exclude_from_sim yes)
 		(at 161.29 32.385 0)
 		(size 69.215 55.88)
@@ -20060,7 +20060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Aquarius Logo 5mm"
+		(property "Footprint" "CRGM Logos:Aquarius Logo 3.5mm"
 			(at 38.354 189.738 0)
 			(effects
 				(font
@@ -20690,7 +20690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Roxy 5mm"
+		(property "Footprint" "CRGM Logos:Roxy 3.5mm"
 			(at 73.66 194.818 0)
 			(effects
 				(font
