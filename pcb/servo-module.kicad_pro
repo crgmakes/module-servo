@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -479,7 +479,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "module-base-stm32c0.kicad_pro",
+    "filename": "servo-module.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -687,6 +687,48 @@
           "group_by": false,
           "label": "WVDC",
           "name": "WVDC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_PN",
+          "name": "LCSC_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_MN",
+          "name": "LCSC_MN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC2",
+          "name": "LCSC2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT_LCSC",
+          "name": "ALT_LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT_MN",
+          "name": "ALT_MN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT_MPN",
+          "name": "ALT_MPN",
           "show": false
         }
       ],

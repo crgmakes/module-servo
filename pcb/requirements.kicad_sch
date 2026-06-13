@@ -19721,7 +19721,7 @@
 		)
 		(uuid "010327bd-46ff-49c5-8499-ce7e6d092554")
 	)
-	(text_box "BASIC\n\n* STM3C0 Processor\n* 8MHz Crystal\n* Adafruit Seesaw Protocol\n* Four Servo Ports\n* Power In/Out Ports\n* Optional Pull Ups for I2C\n* I2C Address Selection (2-bits)\n* Servo power connector\n* Servo status indicators"
+	(text_box "BASIC\n\n* STM3C0 Processor\n* 48MHz Crystal\n* Adafruit Seesaw Protocol\n* Four Servo Ports\n* Power In/Out Ports\n* Optional Pull Ups for I2C\n* I2C Address Selection (2-bits)\n* Servo Power Connector\n* Servo Power Indicator\n* Servo Status Indicators\n"
 		(exclude_from_sim yes)
 		(at 19.05 32.385 0)
 		(size 69.85 55.88)

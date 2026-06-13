@@ -2379,7 +2379,7 @@
 		)
 		(uuid "f4016e9f-f2e1-43ac-8d52-846b2e407ab1")
 	)
-	(text_box "NOTE:\nTVS on servo power input (D4) is set for a 5VDC working voltage.\n\nIf you use a higher voltage servo (e.g., 6V or 12V), the TVS diode MUST be replaced with an appropriate value, or removed entirely."
+	(text_box "NOTE:\nTVS on servo power input (D5) is set for a 5VDC working voltage.\n\nIf you use a higher voltage servo (e.g., 6V or 12V), the TVS diode MUST be replaced with an appropriate value, or removed entirely."
 		(exclude_from_sim no)
 		(at 88.646 88.392 0)
 		(size 80.518 38.862)
@@ -3633,7 +3633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2919601"
+		(property "LCSC" "C2904986"
 			(at 114.046 56.642 0)
 			(effects
 				(font
@@ -5946,7 +5946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2919601"
+		(property "LCSC" "C2904986"
 			(at 114.046 82.042 0)
 			(effects
 				(font
