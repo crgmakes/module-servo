@@ -6213,6 +6213,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" "STMicroelectronics"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STM32C031G6U6TR"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "6fe5f692-3d67-4f29-b052-7f491654f438")
 		)
@@ -8484,6 +8502,24 @@
 			)
 		)
 		(property "LCSC2" "C150517"
+			(at 231.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "DEALON"
+			(at 231.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DZ127S-22-10-55"
 			(at 231.14 48.26 0)
 			(effects
 				(font
