@@ -3462,11 +3462,12 @@
 	)
 	(text "PA6=TIM3_CH1\nPA7=TIM3_CH2"
 		(exclude_from_sim no)
-		(at 148.844 66.294 0)
+		(at 141.224 66.294 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "4350c052-99d5-48de-beab-be43a1522c23")
 	)
@@ -3521,11 +3522,12 @@
 	)
 	(text "PA0=TX\nPA1=RX"
 		(exclude_from_sim no)
-		(at 143.002 50.8 0)
+		(at 141.732 51.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "f4c56c0f-0ce6-42c0-8c00-795cd0fb0d61")
 	)
@@ -3809,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 82.55) (xy 46.99 82.55)
+			(xy 40.64 82.55) (xy 46.99 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3959,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 80.01) (xy 53.34 80.01)
+			(xy 40.64 80.01) (xy 53.34 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4514,7 +4516,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 45.72 80.01 180)
+		(at 40.64 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4524,7 +4526,7 @@
 		)
 		(uuid "597c76a9-00e1-45fe-afaa-a64fb00f4907")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.0554 80.01 0)
+			(at 32.9754 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4663,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 45.72 82.55 180)
+		(at 40.64 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4671,7 +4673,7 @@
 		)
 		(uuid "d8d6ab00-8424-4dde-a94d-e1e49be33aa3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.2272 82.55 0)
+			(at 34.1472 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
