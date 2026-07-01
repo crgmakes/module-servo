@@ -268,7 +268,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "<<tag>>"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -536,6 +536,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -553,13 +554,14 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -827,7 +829,7 @@
       {
         "filename": "servo-module.kicad_sch",
         "name": "servo-module",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "445c1fff-2e1a-48b1-a91f-a137832edebf"
       }
     ],
     "used_designators": "",
@@ -836,7 +838,7 @@
   "sheets": [
     [
       "445c1fff-2e1a-48b1-a91f-a137832edebf",
-      "Root"
+      "servo-module"
     ],
     [
       "5454c337-e679-4d27-a394-0abf4144d85b",
