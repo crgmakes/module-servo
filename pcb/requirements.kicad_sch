@@ -19803,7 +19803,7 @@
 		)
 		(uuid "010327bd-46ff-49c5-8499-ce7e6d092554")
 	)
-	(text_box "BASIC\n\n* STM32C0 Processor\n* 48MHz Crystal\n* Adafruit Seesaw Protocol\n* Four Servo Ports\n* Power In/Out Ports\n* Optional Pull Ups for I2C\n* I2C Address Selection (2-bits)\n* Servo Power Connector\n* Servo Power Indicator\n* Servo Status Indicators\n"
+	(text_box "BASIC\n\n* STM32C0 Processor\n* 48MHz Crystal\n* Adafruit Seesaw Protocol\n* Four Servo Ports\n* Power In/Out Ports\n* Optional Pull Ups for I2C\n* I2C Address Selection (2-bits)\n"
 		(exclude_from_sim yes)
 		(at 19.05 32.385 0)
 		(size 69.85 55.88)
@@ -19878,7 +19878,7 @@
 		)
 		(uuid "8ce25ffd-3aa6-4881-b209-a2025ca66f30")
 	)
-	(text_box "Servo Specifications\n\n* 5V, 90g\n* 0-180 Degrees\n* Standard PWM\n"
+	(text_box "Servo Specifications\n\n* 5V, 90g\n* 0-180 Degrees\n* Standard PWM\n* Servo Power Connector\n* Servo Power Indicator\n* Servo Status Indicators\n* Bulk and Decoupling Caps"
 		(exclude_from_sim yes)
 		(at 90.17 32.385 0)
 		(size 69.85 55.88)
@@ -20122,6 +20122,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 158.75 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e44f90a7-bb09-41e1-9d41-fe158ed3035d")
 		)
@@ -20244,6 +20255,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 36.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5454c337-e679-4d27-a394-0abf4144d85b"
@@ -20330,6 +20352,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 158.75 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f04c9b3-dd85-4708-bfa8-df3df1a95d52")
 		)
@@ -20399,6 +20432,17 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
+			(at 60.96 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
 			(at 60.96 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -20595,6 +20639,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 85.09 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5454c337-e679-4d27-a394-0abf4144d85b"
@@ -20681,6 +20736,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 158.75 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ad9ea42-f527-4223-81a0-ff2f6fd7f33e")
 		)
@@ -20749,6 +20815,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
 			(at 48.26 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -20878,6 +20955,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 25.4 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5454c337-e679-4d27-a394-0abf4144d85b"
@@ -20920,7 +21008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Roxy 5mm"
+		(property "Footprint" "CRGM Logos:Roxy 4mm"
 			(at 73.66 194.818 0)
 			(hide yes)
 			(show_name no)
@@ -20976,6 +21064,39 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 73.66 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
+			(at 73.66 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MN" ""
+			(at 73.66 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 73.66 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -21064,6 +21185,17 @@
 		)
 		(property "MPN" ""
 			(at 158.75 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
+			(at 158.75 186.69 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

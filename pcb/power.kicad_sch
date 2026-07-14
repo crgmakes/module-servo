@@ -2639,6 +2639,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 125.73 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "74b30f9d-f038-4c79-b479-283385abf598")
 		)
@@ -2742,6 +2753,17 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 135.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
 			(at 135.89 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2894,6 +2916,17 @@
 			)
 		)
 		(property "Tolerance" "5%"
+			(at 135.89 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
 			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3343,6 +3376,17 @@
 				(font
 					(size 1 1)
 					(color 223 129 255 1)
+				)
+			)
+		)
+		(property "WVDC" ""
+			(at 114.3 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3960,6 +4004,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 114.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "70682361-2e78-4084-b49f-f8db628cd66b")
 		)
@@ -4179,6 +4234,17 @@
 			)
 		)
 		(property "Tolerance" "5%"
+			(at 114.3 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
 			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4614,6 +4680,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 81.28 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba3f3fff-3e99-4e10-bab7-30db32927db6")
 		)
@@ -4830,6 +4907,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 135.89 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9224c26-9da1-4bd8-b15c-edda0586554a")
 		)
@@ -4961,6 +5049,17 @@
 		)
 		(property "Digikey" "455-SBM04B-SRSS-TBTR-ND"
 			(at 81.026 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
+			(at 77.47 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,6 +5507,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 73.66 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a4f2679-c974-44a8-b62a-83d7bb657f1b")
 		)
@@ -5536,6 +5646,17 @@
 		)
 		(property "MPN" "TPSP3022-01ETG"
 			(at 39.624 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
+			(at 30.48 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5686,6 +5807,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 125.73 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7deef848-a17c-4bc1-bb85-5942fd0e9021")
 		)
@@ -5792,6 +5924,17 @@
 		)
 		(property "Mouser" ""
 			(at 85.09 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
+			(at 85.09 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,6 +6235,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 36.83 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f21cf7e4-78e9-43db-ad8e-7b7f0c907d0f")
 		)
@@ -6229,7 +6383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebb95bbb-6560-429e-9a68-fbf6ce72c1fa")
-		(property "Reference" "C8"
+		(property "Reference" "C19"
 			(at 62.484 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6372,6 +6526,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 60.96 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0ef2f817-ae80-4914-bf24-c04c50d92308")
 		)
@@ -6381,7 +6546,7 @@
 		(instances
 			(project "servo-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "C8")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6524,6 +6689,17 @@
 				)
 			)
 		)
+		(property "WVDC" ""
+			(at 125.73 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e18b235-d763-440e-abc8-8a1b0fd45a54")
 		)
@@ -6655,6 +6831,17 @@
 		)
 		(property "Digikey" "455-SBM04B-SRSS-TBTR-ND"
 			(at 51.816 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WVDC" ""
+			(at 48.26 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
