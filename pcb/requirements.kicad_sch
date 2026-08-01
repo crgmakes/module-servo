@@ -19778,7 +19778,7 @@
 		)
 		(uuid "f2bbddcf-deaf-4a88-a682-1668f77d5b5b")
 	)
-	(text_box "PCB:\n4 Layers\nThickness: 1.6mm\nCopper: 1oz\nFinish: HASL\nSoldermask: Purple\nSilkscreen: White\nMin Trace: 6mil\nMin Spacing: 5mil\nMin Drill: 0.25mm\nMin Via: 0.3mm\nMin Via Annular Ring: 0.6mm\n\n"
+	(text_box "PCB:\n4 Layers\nThickness: 1.6mm\nCopper: 1oz\nFinish: ENIG\nSoldermask: Purple\nSilkscreen: White\nMin Trace: 6mil\nMin Spacing: 5mil\nMin Drill: 0.25mm\nMin Via: 0.3mm\nMin Via Annular Ring: 0.6mm\n\n"
 		(exclude_from_sim yes)
 		(at 106.426 93.472 0)
 		(size 78.74 54.356)
