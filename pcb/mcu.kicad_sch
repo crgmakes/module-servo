@@ -11,7 +11,7 @@
 		(comment 1 "<<hash>>")
 	)
 	(lib_symbols
-		(symbol "CRG Makes:STM32C031G6Ux"
+		(symbol "CRG Makes:STM32C051G8Ux"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -28,7 +28,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32C031G6Ux"
+			(property "Value" "STM32C051G8Ux"
 				(at 3.81 24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -50,7 +50,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32c031g6.pdf"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32c051g8.pdf"
 				(at 0 -43.18 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -61,7 +61,7 @@
 					)
 				)
 			)
-			(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 32KB flash, 12KB RAM, 48 MHz, 2.0-3.6V, 26 GPIO, UFQFPN28"
+			(property "Description" "-40℃~+85℃ 12KB 26 2V~3.6V 32 Bit 48MHz 64KB ARM Cortex-M0+ Built-in FLASH UFQFPN-28(4x4)"
 				(at 0 -38.354 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -72,7 +72,7 @@
 					)
 				)
 			)
-			(property "Digikey" "497-STM32C031G6U6-ND"
+			(property "Digikey" "497-STM32C051G8U6-ND"
 				(at 0 -45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -83,7 +83,7 @@
 					)
 				)
 			)
-			(property "Mouser" "511-STM32C031G6U6"
+			(property "Mouser" "511-STM32C051G8U6"
 				(at 0 -48.26 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -94,7 +94,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C7324966"
+			(property "LCSC" "C44847692"
 				(at 0 -50.8 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -127,7 +127,7 @@
 					)
 				)
 			)
-			(symbol "STM32C031G6Ux_0_1"
+			(symbol "STM32C051G8Ux_0_1"
 				(rectangle
 					(start -11.43 22.86)
 					(end 11.43 -22.86)
@@ -140,7 +140,7 @@
 					)
 				)
 			)
-			(symbol "STM32C031G6Ux_1_1"
+			(symbol "STM32C051G8Ux_1_1"
 				(pin bidirectional line
 					(at -13.97 8.89 0)
 					(length 2.54)
@@ -6789,7 +6789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CRG Makes:STM32C031G6Ux")
+		(lib_id "CRG Makes:STM32C051G8Ux")
 		(at 109.22 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6810,7 +6810,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32C031G6Ux"
+		(property "Value" "STM32C051G8Ux"
 			(at 113.03 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6832,7 +6832,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32c031g6.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32c051g8.pdf"
 			(at 109.22 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6843,7 +6843,7 @@
 				)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 32KB flash, 12KB RAM, 48 MHz, 2.0-3.6V, 26 GPIO, UFQFPN28"
+		(property "Description" "-40℃~+85℃ 12KB 26 2V~3.6V 32 Bit 48MHz 64KB ARM Cortex-M0+ Built-in FLASH UFQFPN-28(4x4)"
 			(at 109.22 108.204 0)
 			(hide yes)
 			(show_name no)
@@ -6854,7 +6854,7 @@
 				)
 			)
 		)
-		(property "Digikey" "497-STM32C031G6U6-ND"
+		(property "Digikey" "497-STM32C051G8U6-ND"
 			(at 109.22 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6865,7 +6865,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-STM32C031G6U6"
+		(property "Mouser" "511-STM32C051G8U6"
 			(at 109.22 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6876,41 +6876,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C7324966"
+		(property "LCSC" "C44847692"
 			(at 109.22 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MN" "STMicroelectronics"
-			(at 109.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "STM32C031G6U6TR"
-			(at 109.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 109.22 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
