@@ -1586,6 +1586,7 @@
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1604,7 +1605,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1615,7 +1616,7 @@
 				)
 			)
 			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1652,7 +1653,7 @@
 					(start -0.508 0.508)
 					(end 0.508 -0.508)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1664,7 +1665,7 @@
 						(xy -0.254 1.016) (xy -0.254 -1.016)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1676,19 +1677,7 @@
 					(mid -1.2656 0)
 					(end -0.254 1.016)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1700,19 +1689,7 @@
 					(mid 1.2656 0)
 					(end 0.254 -1.016)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1724,7 +1701,7 @@
 						(xy 0.254 1.016) (xy 0.254 -1.016)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1734,8 +1711,8 @@
 			)
 			(symbol "SolderJumper_2_Bridged_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 1.5)
 					(name "A"
 						(effects
 							(font
@@ -1752,8 +1729,8 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
+					(at 2.54 0 180)
+					(length 1.5)
 					(name "B"
 						(effects
 							(font
@@ -2233,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 49.53) (xy 114.3 48.26)
+			(xy 114.3 52.07) (xy 114.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 114.3 39.37)
+			(xy 114.3 45.72) (xy 114.3 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 49.53) (xy 135.89 48.26)
+			(xy 135.89 52.07) (xy 135.89 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2373,7 +2350,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 49.53) (xy 125.73 48.26)
+			(xy 125.73 52.07) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 43.18) (xy 125.73 39.37)
+			(xy 125.73 45.72) (xy 125.73 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2473,37 +2450,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 59.69) (xy 125.73 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb61b56-522f-48ca-be7e-09bfd5a8f9ae")
-	)
-	(wire
-		(pts
-			(xy 114.3 59.69) (xy 114.3 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f02071f2-e6ee-4f34-bdf6-375424d8ffe5")
-	)
-	(wire
-		(pts
-			(xy 135.89 59.69) (xy 135.89 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c5334f-da57-43e6-bcf3-a14ff54b371d")
-	)
-	(wire
-		(pts
-			(xy 135.89 43.18) (xy 135.89 39.37)
+			(xy 135.89 45.72) (xy 135.89 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2512,7 +2459,7 @@
 		(uuid "fff25b5b-39fe-474b-bd91-a22a316098bc")
 	)
 	(label "V3.3LED"
-		(at 125.73 41.91 0)
+		(at 125.73 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2522,7 +2469,7 @@
 		(uuid "7c414b27-0ddf-424b-b444-940964fff764")
 	)
 	(label "VSERVOLED"
-		(at 135.89 41.91 0)
+		(at 135.89 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2532,7 +2479,7 @@
 		(uuid "7e688b74-397b-4910-bb1b-f9808b0a94e1")
 	)
 	(label "V5LED"
-		(at 114.3 41.91 0)
+		(at 114.3 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2543,7 +2490,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 125.73 53.34 90)
+		(at 125.73 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2553,7 +2500,7 @@
 		(dnp no)
 		(uuid "01e2767a-8b88-4285-8b2b-554723f77b2e")
 		(property "Reference" "JP7"
-			(at 123.698 53.34 0)
+			(at 123.698 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2562,8 +2509,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 128.27 53.34 0)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2573,8 +2520,8 @@
 				)
 			)
 		)
-		(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 125.73 53.34 0)
+		(property "Footprint" ""
+			(at 125.73 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2585,7 +2532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 53.34 0)
+			(at 125.73 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2596,51 +2543,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 125.73 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 125.73 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 125.73 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 125.73 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 125.73 53.34 0)
+			(at 125.73 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2667,7 +2570,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 135.89 53.34 90)
+		(at 135.89 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2677,7 +2580,7 @@
 		(dnp no)
 		(uuid "01edf82a-1083-44ee-a4e6-ea4330ce8b03")
 		(property "Reference" "JP8"
-			(at 133.858 53.34 0)
+			(at 133.858 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2686,8 +2589,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 138.43 53.34 0)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 138.43 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2697,8 +2600,8 @@
 				)
 			)
 		)
-		(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 135.89 53.34 0)
+		(property "Footprint" ""
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2709,7 +2612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 53.34 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2720,51 +2623,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 135.89 53.34 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2791,7 +2650,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 135.89 36.83 0)
+		(at 135.89 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2801,7 +2660,7 @@
 		(dnp no)
 		(uuid "02c24ab5-7d29-44bc-b39e-b0f3c8dd4a5a")
 		(property "Reference" "R9"
-			(at 137.3886 35.6616 0)
+			(at 137.3886 38.2016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2812,7 +2671,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 137.3886 37.973 0)
+			(at 137.3886 40.513 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2823,7 +2682,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
-			(at 135.89 36.83 0)
+			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2835,7 +2694,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 135.89 36.83 0)
+			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2847,7 +2706,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/10Watt 4.7Kohms 5% Commercial Use"
-			(at 135.89 36.83 0)
+			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2858,7 +2717,7 @@
 			)
 		)
 		(property "MN" "FOJAN"
-			(at 135.89 36.83 0)
+			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2869,7 +2728,7 @@
 			)
 		)
 		(property "MPN" "FRC0603J472 TS"
-			(at 135.89 36.83 0)
+			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2880,7 +2739,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06034K70JNEAC"
-			(at 135.89 36.83 0)
+			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,7 +2751,7 @@
 			)
 		)
 		(property "Digikey" "541-3993-2-ND"
-			(at 135.89 36.83 0)
+			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2904,7 +2763,7 @@
 			)
 		)
 		(property "LCSC" "C2907166"
-			(at 135.89 36.83 0)
+			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2916,7 +2775,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 135.89 36.83 0)
+			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2927,7 +2786,7 @@
 			)
 		)
 		(property "WVDC" ""
-			(at 135.89 36.83 0)
+			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2954,7 +2813,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 59.69 0)
+		(at 135.89 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2964,7 +2823,7 @@
 		(dnp no)
 		(uuid "0a6e138f-251e-477e-9d4a-f1b0d45d75ad")
 		(property "Reference" "#PWR084"
-			(at 135.89 66.04 0)
+			(at 135.89 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2975,7 +2834,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 63.5 0)
+			(at 135.89 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2985,7 +2844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 59.69 0)
+			(at 135.89 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2997,7 +2856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 59.69 0)
+			(at 135.89 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3009,7 +2868,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 59.69 0)
+			(at 135.89 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3002,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 34.29 0)
+		(at 114.3 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3153,7 +3012,7 @@
 		(dnp no)
 		(uuid "18f6c4aa-f0cb-46ff-91a2-9684c5779c86")
 		(property "Reference" "#PWR079"
-			(at 114.3 38.1 0)
+			(at 114.3 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3164,7 +3023,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 114.3 30.48 0)
+			(at 114.3 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3174,7 +3033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 34.29 0)
+			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3186,7 +3045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 34.29 0)
+			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +3057,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 34.29 0)
+			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3209,7 +3068,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 114.3 34.29 0)
+			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,7 +3079,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 114.3 34.29 0)
+			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,7 +3090,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 114.3 34.29 0)
+			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3255,7 +3114,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 114.3 45.72 90)
+		(at 114.3 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3265,17 +3124,6 @@
 		(dnp no)
 		(uuid "233bd638-b033-4185-a502-7670aef35a09")
 		(property "Reference" "D12"
-			(at 115.57 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Blue"
 			(at 115.57 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3286,8 +3134,19 @@
 				(justify right)
 			)
 		)
+		(property "Value" "Blue"
+			(at 115.57 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
-			(at 114.3 45.72 0)
+			(at 114.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +3158,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
-			(at 114.3 45.72 0)
+			(at 114.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,7 +3170,7 @@
 			)
 		)
 		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
-			(at 114.3 45.72 0)
+			(at 114.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,7 +3181,7 @@
 			)
 		)
 		(property "MN" "XINGLIGHT"
-			(at 114.3 45.72 0)
+			(at 114.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,7 +3192,7 @@
 			)
 		)
 		(property "MPN" "XL-1608UBC-04"
-			(at 114.3 45.72 0)
+			(at 114.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3344,7 +3203,7 @@
 			)
 		)
 		(property "Mouser" "859-LTST-C190TBKT"
-			(at 114.3 45.72 0)
+			(at 114.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3356,7 +3215,7 @@
 			)
 		)
 		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
-			(at 114.3 45.72 0)
+			(at 114.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3368,7 +3227,7 @@
 			)
 		)
 		(property "LCSC" "C965807"
-			(at 114.3 45.72 0)
+			(at 114.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3380,7 +3239,7 @@
 			)
 		)
 		(property "WVDC" ""
-			(at 114.3 45.72 90)
+			(at 114.3 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3407,7 +3266,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 59.69 0)
+		(at 114.3 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3417,7 +3276,7 @@
 		(dnp no)
 		(uuid "32f9cf5e-e02b-4fa9-a763-0d9999c6d0c5")
 		(property "Reference" "#PWR080"
-			(at 114.3 66.04 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3428,7 +3287,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 63.5 0)
+			(at 114.3 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3438,7 +3297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 59.69 0)
+			(at 114.3 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3450,7 +3309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 59.69 0)
+			(at 114.3 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,7 +3321,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 59.69 0)
+			(at 114.3 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3796,7 +3655,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 125.73 34.29 0)
+		(at 125.73 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3806,7 +3665,7 @@
 		(dnp no)
 		(uuid "7437c789-08b7-4843-8532-13ee881edcc0")
 		(property "Reference" "#PWR081"
-			(at 125.73 38.1 0)
+			(at 125.73 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3817,7 +3676,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 125.73 30.48 0)
+			(at 125.73 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3827,7 +3686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 34.29 0)
+			(at 125.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3839,7 +3698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 34.29 0)
+			(at 125.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3851,7 +3710,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 34.29 0)
+			(at 125.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +3721,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 125.73 34.29 0)
+			(at 125.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3873,7 +3732,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 125.73 34.29 0)
+			(at 125.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3884,7 +3743,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 125.73 34.29 0)
+			(at 125.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3908,7 +3767,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 114.3 53.34 90)
+		(at 114.3 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3918,7 +3777,7 @@
 		(dnp no)
 		(uuid "7d5a7568-1f32-4ef2-bba3-ca55196a4eb5")
 		(property "Reference" "JP6"
-			(at 112.268 53.34 0)
+			(at 112.268 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3927,8 +3786,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 116.84 53.34 0)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 116.84 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3938,8 +3797,8 @@
 				)
 			)
 		)
-		(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 114.3 53.34 0)
+		(property "Footprint" ""
+			(at 114.3 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3950,7 +3809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 53.34 0)
+			(at 114.3 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,51 +3820,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 114.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 114.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 114.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 114.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 114.3 53.34 0)
+			(at 114.3 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,7 +3924,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 114.3 36.83 0)
+		(at 114.3 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4119,7 +3934,7 @@
 		(dnp no)
 		(uuid "7feef0de-e83a-481d-a779-ab5068f67bc7")
 		(property "Reference" "R7"
-			(at 115.7986 35.6616 0)
+			(at 115.7986 38.2016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4130,7 +3945,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 115.7986 37.973 0)
+			(at 115.7986 40.513 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4141,7 +3956,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
-			(at 114.3 36.83 0)
+			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,7 +3968,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 114.3 36.83 0)
+			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4165,7 +3980,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/10Watt 4.7Kohms 5% Commercial Use"
-			(at 114.3 36.83 0)
+			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +3991,7 @@
 			)
 		)
 		(property "MN" "FOJAN"
-			(at 114.3 36.83 0)
+			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4187,7 +4002,7 @@
 			)
 		)
 		(property "MPN" "FRC0603J472 TS"
-			(at 114.3 36.83 0)
+			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4198,7 +4013,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06034K70JNEAC"
-			(at 114.3 36.83 0)
+			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4210,7 +4025,7 @@
 			)
 		)
 		(property "Digikey" "541-3993-2-ND"
-			(at 114.3 36.83 0)
+			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4222,7 +4037,7 @@
 			)
 		)
 		(property "LCSC" "C2907166"
-			(at 114.3 36.83 0)
+			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4234,7 +4049,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 114.3 36.83 0)
+			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4245,7 +4060,7 @@
 			)
 		)
 		(property "WVDC" ""
-			(at 114.3 36.83 0)
+			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4783,7 +4598,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 135.89 45.72 90)
+		(at 135.89 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4793,17 +4608,6 @@
 		(dnp no)
 		(uuid "a0384a44-bd57-4e7f-a157-e41d90cd2c8f")
 		(property "Reference" "D14"
-			(at 137.16 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Blue"
 			(at 137.16 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4814,8 +4618,19 @@
 				(justify right)
 			)
 		)
+		(property "Value" "Blue"
+			(at 137.16 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
-			(at 135.89 45.72 0)
+			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,7 +4642,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
-			(at 135.89 45.72 0)
+			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +4654,7 @@
 			)
 		)
 		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
-			(at 135.89 45.72 0)
+			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4850,7 +4665,7 @@
 			)
 		)
 		(property "MN" "XINGLIGHT"
-			(at 135.89 45.72 0)
+			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +4676,7 @@
 			)
 		)
 		(property "MPN" "XL-1608UBC-04"
-			(at 135.89 45.72 0)
+			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4872,7 +4687,7 @@
 			)
 		)
 		(property "Mouser" "859-LTST-C190TBKT"
-			(at 135.89 45.72 0)
+			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4884,7 +4699,7 @@
 			)
 		)
 		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
-			(at 135.89 45.72 0)
+			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4896,7 +4711,7 @@
 			)
 		)
 		(property "LCSC" "C965807"
-			(at 135.89 45.72 0)
+			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4908,7 +4723,7 @@
 			)
 		)
 		(property "WVDC" ""
-			(at 135.89 45.72 90)
+			(at 135.89 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5683,7 +5498,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 125.73 45.72 90)
+		(at 125.73 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5693,17 +5508,6 @@
 		(dnp no)
 		(uuid "ce8d14dc-f1a8-4111-900e-c0fdeea2f155")
 		(property "Reference" "D13"
-			(at 127 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Blue"
 			(at 127 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5714,8 +5518,19 @@
 				(justify right)
 			)
 		)
+		(property "Value" "Blue"
+			(at 127 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
-			(at 125.73 45.72 0)
+			(at 125.73 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5727,7 +5542,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
-			(at 125.73 45.72 0)
+			(at 125.73 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5739,7 +5554,7 @@
 			)
 		)
 		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
-			(at 125.73 45.72 0)
+			(at 125.73 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5750,7 +5565,7 @@
 			)
 		)
 		(property "MN" "XINGLIGHT"
-			(at 125.73 45.72 0)
+			(at 125.73 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5761,7 +5576,7 @@
 			)
 		)
 		(property "MPN" "XL-1608UBC-04"
-			(at 125.73 45.72 0)
+			(at 125.73 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5772,7 +5587,7 @@
 			)
 		)
 		(property "Mouser" "859-LTST-C190TBKT"
-			(at 125.73 45.72 0)
+			(at 125.73 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5784,7 +5599,7 @@
 			)
 		)
 		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
-			(at 125.73 45.72 0)
+			(at 125.73 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5796,7 +5611,7 @@
 			)
 		)
 		(property "LCSC" "C965807"
-			(at 125.73 45.72 0)
+			(at 125.73 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5808,7 +5623,7 @@
 			)
 		)
 		(property "WVDC" ""
-			(at 125.73 45.72 90)
+			(at 125.73 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6263,7 +6078,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 135.89 34.29 0)
+		(at 135.89 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6273,7 +6088,7 @@
 		(dnp no)
 		(uuid "e334d661-90a1-4891-80e6-5006daf067c6")
 		(property "Reference" "#PWR083"
-			(at 135.89 38.1 0)
+			(at 135.89 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6284,7 +6099,7 @@
 			)
 		)
 		(property "Value" "VSERVO"
-			(at 132.588 30.48 0)
+			(at 132.588 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6295,7 +6110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 34.29 0)
+			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6306,7 +6121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 34.29 0)
+			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6317,7 +6132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 34.29 0)
+			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6328,7 +6143,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 135.89 34.29 0)
+			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6339,7 +6154,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 135.89 34.29 0)
+			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6350,7 +6165,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 135.89 34.29 0)
+			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +6369,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 125.73 36.83 0)
+		(at 125.73 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6564,7 +6379,7 @@
 		(dnp no)
 		(uuid "ebd815a2-7169-471c-a108-1ed8c4586eeb")
 		(property "Reference" "R8"
-			(at 127.2286 35.6616 0)
+			(at 127.2286 38.2016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6575,7 +6390,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 127.2286 37.973 0)
+			(at 127.2286 40.513 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6586,7 +6401,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
-			(at 125.73 36.83 0)
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6598,7 +6413,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 125.73 36.83 0)
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,7 +6425,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/10watt 1.0Kohms 1%"
-			(at 125.73 36.83 0)
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6621,7 +6436,7 @@
 			)
 		)
 		(property "MN" "FOJAN"
-			(at 125.73 36.83 0)
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6632,7 +6447,7 @@
 			)
 		)
 		(property "MPN" "FRC0603J102 TS"
-			(at 125.73 36.83 0)
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6643,7 +6458,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06031K00JNEAC"
-			(at 125.73 36.83 0)
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6655,7 +6470,7 @@
 			)
 		)
 		(property "Digikey" "541-3991-2-ND"
-			(at 125.73 36.83 0)
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6667,7 +6482,7 @@
 			)
 		)
 		(property "LCSC" "C2907113"
-			(at 125.73 36.83 0)
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6679,7 +6494,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 125.73 36.83 0)
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6690,7 +6505,7 @@
 			)
 		)
 		(property "WVDC" ""
-			(at 125.73 36.83 0)
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6958,7 +6773,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 59.69 0)
+		(at 125.73 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6968,7 +6783,7 @@
 		(dnp no)
 		(uuid "fb13f9a6-d6be-48b1-9a8f-e7194506f0b0")
 		(property "Reference" "#PWR082"
-			(at 125.73 66.04 0)
+			(at 125.73 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6979,7 +6794,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 63.5 0)
+			(at 125.73 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6989,7 +6804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 59.69 0)
+			(at 125.73 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7001,7 +6816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 59.69 0)
+			(at 125.73 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7013,7 +6828,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 59.69 0)
+			(at 125.73 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

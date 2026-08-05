@@ -824,6 +824,7 @@
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -950,8 +951,8 @@
 			)
 			(symbol "SolderJumper_2_Open_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 1.27)
 					(name "A"
 						(effects
 							(font
@@ -968,8 +969,8 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
+					(at 2.54 0 180)
+					(length 1.27)
 					(name "B"
 						(effects
 							(font
@@ -2082,6 +2083,7 @@
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2100,7 +2102,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2111,7 +2113,7 @@
 				)
 			)
 			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2148,7 +2150,7 @@
 					(start -0.508 0.508)
 					(end 0.508 -0.508)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -2160,7 +2162,7 @@
 						(xy -0.254 1.016) (xy -0.254 -1.016)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -2172,19 +2174,7 @@
 					(mid -1.2656 0)
 					(end -0.254 1.016)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -2196,19 +2186,7 @@
 					(mid 1.2656 0)
 					(end 0.254 -1.016)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -2220,7 +2198,7 @@
 						(xy 0.254 1.016) (xy 0.254 -1.016)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -2230,8 +2208,8 @@
 			)
 			(symbol "SolderJumper_2_Bridged_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 1.5)
 					(name "A"
 						(effects
 							(font
@@ -2248,8 +2226,8 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
+					(at 2.54 0 180)
+					(length 1.5)
 					(name "B"
 						(effects
 							(font
@@ -2803,7 +2781,7 @@
 		(at 77.47 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c7e4ff9-62d1-4f66-8267-c4e55d65fb4c")
+		(uuid "0ec94092-f50a-4598-bc8c-2a939b9107c5")
 	)
 	(junction
 		(at 59.69 57.15)
@@ -2828,6 +2806,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "294f6d93-f73f-4bdb-a32f-1509ac8354c9")
+	)
+	(junction
+		(at 90.17 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2afd452d-f834-4ff3-a768-c54672312092")
 	)
 	(junction
 		(at 46.99 133.35)
@@ -2913,12 +2897,6 @@
 		(color 0 0 0 0)
 		(uuid "ea321e45-726d-4fb7-b66f-91314a0d6308")
 	)
-	(junction
-		(at 90.17 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0b69b4d-d059-409e-83a6-38daa181522b")
-	)
 	(wire
 		(pts
 			(xy 72.39 57.15) (xy 72.39 60.96)
@@ -2961,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 134.62) (xy 87.63 134.62)
+			(xy 90.17 134.62) (xy 86.36 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3041,7 +3019,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 142.24) (xy 90.17 142.24)
+			(xy 86.36 142.24) (xy 90.17 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3201,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 134.62) (xy 80.01 134.62)
+			(xy 77.47 134.62) (xy 81.28 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3541,7 +3519,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 142.24) (xy 77.47 142.24)
+			(xy 81.28 142.24) (xy 77.47 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5221,7 +5199,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f6a1a3a-2f32-4993-b31d-56aba7832112")
 		(property "Reference" "JP5"
@@ -5234,7 +5212,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SolderJumper_2_Bridged"
 			(at 83.82 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5245,7 +5223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRGM Connector:SolderJumper-2_P2.0mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" ""
 			(at 83.82 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5268,72 +5246,6 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 83.82 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 83.82 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 83.82 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 83.82 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 83.82 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MN" ""
-			(at 83.82 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
 			(at 83.82 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8954,8 +8866,8 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a05eda9-97b0-4ffa-8188-9dcb5973d49d")
 		(property "Reference" "JP9"
@@ -8968,7 +8880,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SolderJumper_2_Open"
 			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9003,72 +8915,6 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 83.82 147.574 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 83.82 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 83.82 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 83.82 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 83.82 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MN" ""
-			(at 83.82 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 83.82 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
